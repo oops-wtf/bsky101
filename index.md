@@ -1,35 +1,39 @@
 ---
-title: Home
-layout: home
+title: Halaman Utama
+layout: default
+nav_order: 1
+description: "Laman ini berisi panduan dan semua yang berkaitan dengan Bluesky dalam bahasa Indonesia."
+has_toc: true
+permalink: /
+last_modified_date: 2023-12-15 02:45
 ---
 
-This is a *bare-minimum* template to create a Jekyll site that uses the [Just the Docs] theme. You can easily set the created site to be published on [GitHub Pages] – the [README] file explains how to do that, along with other details.
+# Selamat datang!
+{: .fs-9 }
 
-If [Jekyll] is installed on your computer, you can also build and preview the created site *locally*. This lets you test changes before committing them, and avoids waiting for GitHub Pages.[^1] And you will be able to deploy your local build to a different platform than GitHub Pages.
+**Bluesky Indonesia** berisi panduan tertulis dan semua yang berkaitan dengan Bluesky Social dalam bahasa Indonesia.
+{: .fs-6 .fw-300 }
 
-More specifically, the created site:
+---
 
-- uses a gem-based approach, i.e. uses a `Gemfile` and loads the `just-the-docs` gem
-- uses the [GitHub Pages / Actions workflow] to build and publish the site on GitHub Pages
+Situs ini dibuat atas inisiasi [@oops.wtf](https://bsky.app/profile/oops.wtf) untuk kemudian diserahkan kepada komunitas Bluesky Indonesia untuk dikelola bersama.
 
-Other than that, you're free to customize sites that you create with this template, however you like. You can easily change the versions of `just-the-docs` and Jekyll it uses, as well as adding further plugins.
+{: .catatan }
+Jika Anda sudah tahu apa yang akan Anda cari, ketikkan di kotak pencarian. Namun, jika Anda memerlukan pandangan sekilas tentang isi dari keseluruhan situs ini, lihat gambaran umumnya dalam [panduan singkat]({% link panduan.md %}).
 
-[Browse our documentation][Just the Docs] to learn more about how to use this theme.
+### Kontribusi
 
-To get started with creating a site, simply:
+Apabila Anda ingin berkontribusi pada situs ini, harap diskusikan terlebih dahulu perubahan yang ingin Anda lakukan melalui isu, surel, pesan singkat, atau metode lainnya dengan pengelola sebelum membuat perubahan. 
 
-1. click "[use this template]" to create a GitHub repository
-2. go to Settings > Pages > Build and deployment > Source, and select GitHub Actions
+{: .penting }
+Baca lebih lanjut tentang menjadi kontributor di [repositori GitHub](https://github.com/oops-wtf/bsky-doc#contributing) kami.
 
-If you want to maintain your docs in the `docs` directory of an existing project repo, see [Hosting your docs from an existing project repo](https://github.com/just-the-docs/just-the-docs-template/blob/main/README.md#hosting-your-docs-from-an-existing-project-repo) in the template README.
+#### Terima kasih kepada para kontributor Bluesky Indonesia!
 
-----
-
-[^1]: [It can take up to 10 minutes for changes to your site to publish after you push the changes to GitHub](https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/creating-a-github-pages-site-with-jekyll#creating-your-site).
-
-[Just the Docs]: https://just-the-docs.github.io/just-the-docs/
-[GitHub Pages]: https://docs.github.com/en/pages
-[README]: https://github.com/just-the-docs/just-the-docs-template/blob/main/README.md
-[Jekyll]: https://jekyllrb.com
-[GitHub Pages / Actions workflow]: https://github.blog/changelog/2022-07-27-github-pages-custom-github-actions-workflows-beta/
-[use this template]: https://github.com/just-the-docs/just-the-docs-template/generate
+<ul class="list-style-none">
+{% for contributor in site.github.contributors %}
+  <li class="d-inline-block mr-1">
+     <a href="{{ contributor.html_url }}"><img src="{{ contributor.avatar_url }}" width="32" height="32" alt="{{ contributor.login }}"></a>
+  </li>
+{% endfor %}
+</ul>

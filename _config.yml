@@ -1,8 +1,57 @@
-title: Just the Docs Template
-description: A starter template for a Jeykll site using the Just the Docs theme!
+title: Bluesky 101
+description: Tutorial Bluesky dalam bahasa Indonesia
 theme: just-the-docs
+# Color scheme supports "light" (default) and "dark"
+color_scheme: dark
+url: https://bsky.oops.wtf
 
-url: https://just-the-docs.github.io
+#aux_links:
+#  Cakrawala Indonesia: https://bsky.app/profile/did:plc:7opjnfmb6gtbgjrsr3777ujx/feed/aaagz4bmp5o3c
 
-aux_links:
-  Template Repository: https://github.com/just-the-docs/just-the-docs-template
+#logo: "assets/logo.jpg"
+#favicon_ico: "assets/ico.ico"
+
+# External navigation links
+nav_external_links:
+  - title: Cakrawala Indonesia (feed)
+    url: https://bsky.app/profile/did:plc:7opjnfmb6gtbgjrsr3777ujx/feed/aaagz4bmp5o3c
+    hide_icon: false # set to true to hide the external link icon - defaults to false
+    opens_in_new_tab: true # set to true to open this link in a new tab - defaults to false
+  - title: WIB (feed)
+    url: https://bsky.app/profile/did:plc:7opjnfmb6gtbgjrsr3777ujx/feed/aaagz4bmp5o3c
+    hide_icon: false
+    opens_in_new_tab: true
+
+# Footer content
+# appears at the bottom of every page's main content
+# Note: The footer_content option is deprecated and will be removed in a future major release. Please use `_includes/footer_custom.html` for more robust markup / liquid-based content.
+# footer_content: ""
+
+# Footer last edited timestamp
+last_edit_timestamp: true # show or hide edit time - page must have `last_modified_date` defined in the frontmatter
+last_edit_time_format: "%e %b %Y at %I:%M %p" # uses ruby's time format: https://ruby-doc.org/stdlib-2.7.0/libdoc/time/rdoc/Time.html
+last_edit_time_text: "wlea"
+
+# Footer "Edit this page on GitHub" link text
+gh_edit_link: true # show or hide edit this page link
+gh_edit_link_text: "Sunting laman ini di GitHub."
+gh_edit_repository: "https://github.com/oops-wtf/bsky-doc" # the github URL for your repo
+gh_edit_branch: "main" # the branch that your docs is served from
+# gh_edit_source: docs # the source that your files originate from
+gh_edit_view_mode: "tree" # "tree" or "edit" if you want the user to jump into the editor immediately
+
+callouts:
+  peringatan:
+    title: Peringatan
+    color: red
+  sorotan:
+    title: Sorotan
+    color: green
+  penting:
+    title: Penting
+    color: blue
+  catatan:
+    title: Catatan
+    color: purple
+  
+# Untuk callouts, gunakan warna grey-lt, grey-dk, purple, blue, green, yellow, dan red

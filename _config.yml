@@ -2,11 +2,13 @@ title: Bluesky 101
 description: Tutorial Bluesky dalam bahasa Indonesia
 theme: just-the-docs
 # Color scheme supports "light" (default) and "dark"
-color_scheme: dark
+# color_scheme: dark
 url: https://bsky.oops.wtf
 
-#aux_links:
-#  Cakrawala Indonesia: https://bsky.app/profile/did:plc:7opjnfmb6gtbgjrsr3777ujx/feed/aaagz4bmp5o3c
+aux_links:
+  📝: /roadmap
+  ❓: /faq
+  ✏: /riwayat
 
 #logo: "assets/logo.jpg"
 #favicon_ico: "assets/ico.ico"
@@ -29,8 +31,7 @@ nav_external_links:
 
 # Footer last edited timestamp
 last_edit_timestamp: true # show or hide edit time - page must have `last_modified_date` defined in the frontmatter
-last_edit_time_format: "%e %b %Y at %I:%M %p" # uses ruby's time format: https://ruby-doc.org/stdlib-2.7.0/libdoc/time/rdoc/Time.html
-last_edit_time_text: "wlea"
+last_edit_time_format: "%e %b %Y (%I:%M %p)" # uses ruby's time format: https://ruby-doc.org/stdlib-2.7.0/libdoc/time/rdoc/Time.html
 
 # Footer "Edit this page on GitHub" link text
 gh_edit_link: true # show or hide edit this page link

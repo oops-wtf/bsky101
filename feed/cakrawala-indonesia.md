@@ -2,7 +2,7 @@
 title: Cakrawala Indonesia (CI)
 layout: home
 nav_order: 1
-parent: Algoritma dan Feed
+parent: Feed dan Algoritma
 grand_parent: Pengaturan dan Fitur
 permalink: /cakrawala
 ---

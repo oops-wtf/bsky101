@@ -16,6 +16,10 @@ Semua perubahan penting yang berhubungan dengan sebagian atau keseluruhan isi si
 * Menambahkan tulisan baru pada laman Domain Handle
 * Menambahkan tulisan baru pada laman Cakrawala Indonesia (CI)
 * Menambahkan tulisan baru pada laman Moderasi
+* Menambahkan tulisan baru pada laman Domain Handle
+* Menambahkan tulisan baru pada laman Aplikasi Bluesky
+* Menambahkan tulisan baru pada laman Moderasi
+* Menambahkan tulisan baru pada laman Daftar Rekomendasi Feed
 
 ## v0.1.0
 15 Desember 2023

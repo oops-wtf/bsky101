@@ -2,12 +2,17 @@
 title: Cara Membuat Feed
 layout: home
 nav_order: 2
-parent: Algoritma dan Feed
+parent: Feed dan Algoritma
 grand_parent: Pengaturan dan Fitur
 permalink: /membuat-feed
 ---
 
-# Cara Membuat Feed
-
 {: .catatan }
 Bantu kami untuk melengkapi laman ini... 🥺
+
+# Cara Membuat Feed
+
+0. Skyfeed.com
+0. Blueskyfeed.com
+
+## Membuat Feed Hosting Sendiri

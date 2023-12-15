@@ -68,7 +68,7 @@ Setelah itu, Anda bisa mulai bekerja dengan:
 
 # Panduan Menulis
 
-Pada beberapa laman, masih terdapat beberapa tulisan kosong atau kurang lengkap. Artinya laman ini masih butuh pengembangan tulisan dan Anda bisa menambahkannya sesuai petunjuk.
+Pada beberapa halaman masih terdapat beberapa tulisan kosong atau kurang lengkap. Artinya laman ini masih butuh pengembangan tulisan dan Anda bisa menambahkannya sesuai petunjuk.
 
 Untuk membuat tulisan konsisten antar materi, berikut konvensi yang ditetapkan:
 

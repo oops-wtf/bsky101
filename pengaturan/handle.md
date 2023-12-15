@@ -38,23 +38,27 @@ Kirim PR untuk menambahkan layanan Anda!
 
 Perubahan terakhir: `15 Desember 2023`
 
-### Official
+### Domain dengan Dukungan Resmi
 
 | Handles   | Type  | PDS?  | Open? | Free? | Auth  | Maintainer    | Links |
 |---        |---    |---    |---    |---    |---    |---            |---    |
 | `*.bsky.social` | http | ✅ | ❌ | ✅ | password | [Bluesky PBLLC](https://bsky.app/profile/did:plc:z72i7hdynmk6r22z27h6tvur) | [web](https://blueskyweb.xyz/), [git](https://github.com/bluesky-social) |
+| `*.tired.io`<br>`*.bsky.cool`<br>`*.bsky.fish`<br>`*.bsky.lgbt`<br>`*.bsky.finance`<br>`*.vibes.cool`<br>`*.excuseme.wtf`<br>`*.bluesky.zip`<br>`*.skeets.online` | dns | - | ✅ | ✅ | password | [@darn.fish](https://bsky.app/profile/did:plc:7qw3ldjppmwmtjoak3egctdb) | [web](https://skyna.me/), [git](https://github.com/darnfish/skyname) |
 | `*.is-extremely.gay`<br>`*.the-gay.cat`<br>`*.woke.cat`<br>`*.lesbian.cat` | dns | - | ✅ | ✅ | none | [@domi.zip](https://bsky.app/profile/did:plc:7bwr7mioqql34n2mrqwqypbz) | [web](https://handles.domi.zip/), [git](https://github.com/SlickDomique/open-handles) |
 | `*.bsky.london` | dns | - | ✅ | ✅ | none | [@pfrazees.monster](https://bsky.app/profile/did:plc:p2cp5gopk7mgjegy6wadk3ep) | [web](https://bsky.london/) |
 | `*.swifties.social` | dns | - | ✅ | ✅ | none | [@pfrazees.monster](https://bsky.app/profile/did:plc:p2cp5gopk7mgjegy6wadk3ep) | [web](https://bsky.london/) |
 | `*.gwei.cz` | dns | - | ✅ | ✅ | external:matrix | [@gwei.cz](https://bsky.app/profile/did:plc:2bs6eyzyjkqb5gmqbfurccx2) | [web](https://app.element.io/#/room/bluesky:gwei.cz), [git](https://github.com/gweicz/atproto-handle-matrix-bot) |
 | `*.ish.ninja` | dns | - | ✅ | ✅ | password | [@ishaanbedi.in](https://bsky.app/profile/did:plc:d5d2pdxfn2feddaqrxg337ta) | [web](https://www.ish.ninja/), [git](https://github.com/ishaanbedi/ish.ninja) |
+| `*.grows.green`<br>`*.knows.green`<br>`*.loves.green`<br>`*.smokes.green`<br>`*.rolls.green`<br>`*.thequeenof.green`<br>`*.thekingof.green` | dns | - | ✅ | ✅ | none | [@Adirondack.Green](https://bsky.app/profile/did:plc:r2jsoijmenfb67klwdc3hyav) | [grows.green](https://grows.green)<br>[knows.green](https://knows.green)<br>[loves.green](https://loves.green)<br>[smokes.green](https://smokes.green)<br>[rolls.green](https://rolls.green)<br>[thequeenof.green](https://thequeenof.green)<br>[thekingof.green](https://thekingof.green) |
 
-### Un-official (hack it!)
+### Domain Tidak Resmi
 
 | Handles   | Type  | Open? | Auth  | Maintainer    | Links | Note  |
 |---        |---    |---    |---    |---            |---    |---    |
 | `*.deno.dev` | http | ✅ | multiple | Deno Land Inc. | [web](https://deno.com/deploy) |  |
 | `*.messwithdns.com` | dns | ✅ | none | wizard zines | [web](http://messwithdns.com/) | only temporary, suitable for testing |
+
+## Cara Memasang Domain dari Skyna.me
 
 ---
 

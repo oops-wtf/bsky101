@@ -13,20 +13,20 @@ Bantu kami untuk mengisi halaman ini... 🥺
 
 # Antarmuka Pengguna Bluesky
 
-## Home 🏠
+## Home
 ### Following
 
-## Search 🔍
+## Search
 ### Search Operators
 ### Suggested Follows
 
-## Feed 📡
+## Feed 
 ### My Feeds
 ### Discover new feeds
 
-## Notifications 🔔
+## Notifications
 
-## Profile 🧔
+## Profile
 ### Post
 ### Replies
 ### Media
@@ -38,4 +38,4 @@ Bantu kami untuk mengisi halaman ini... 🥺
 ### Moderation
 ### List
 
-# Settings 🔧
+# Settings

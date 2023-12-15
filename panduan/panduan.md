@@ -51,14 +51,14 @@ Apabila Anda sudah selesai membaca dan memahami panduan dasar di atas, silakan l
 ## Privasi dan Keamanan 🔒
 Adapun hal penting terkait privasi dan keamanan dalam menggunakan Bluesky
 
-0. Seluruh data dan informasi yang Anda berikan kepada Bluesky bersifat publik. **Hormasti pengguna lain, terapkan etika dalam bersosial media!**
+0. Seluruh data dan informasi yang Anda berikan kepada Bluesky bersifat publik. Terapkan etika dalam bersosial media.
 0. Selalu gunakan [**App Password**]({% link pengaturan/password.md %}) setiap kali menggunakan aplikasi atau tool dari pihak ketiga. Berbeda dengan kata sandi saat pertama kali mendaftar, App Password ini bersifat sementara dan bisa dihapus atau dibuat ulang di menu pengaturan untuk keperluan berbagai aplikasi Bluesky.
 0. Verifikasi email untuk keperluan reset password.
 
 ---
 
 ## Glosarium
-Glosarium adalah urutan (A-Z) daftar istilah Bluesky secara khusus dan istilah dalam dunia internet dan teknologi pada umumnya, disertai dengan definisi masing-masing.
+Glosarium adalah urutan (A-Z) daftar istilah Bluesky secara khusus dan istilah dalam dunia teknologi pada umumnya, disertai dengan definisi masing-masing.
 
 101
 : *Introduction to (I) Computers (01)*, merujuk pada seseorang yang tidak memiliki pengetahuan, keterampilan, atau belum terbiasa dalam penggunaan komputer dan teknologi lainnya.
@@ -78,6 +78,9 @@ Domain
 Desentralisasi
 Federasi
 : Merujuk pada transfer kontrol dan pengambilan keputusan dari entitas terpusat (individu, organisasi, atau grup) ke jaringan terdistribusi.
+
+Feed
+: Merujuk pada aloritmik skyline/timeline di Bluesky
 
 Moderasi
 : Sistem filter otomatis yang secara proaktif menganalisis dan mengidentifikasi konten yang melanggar aturan

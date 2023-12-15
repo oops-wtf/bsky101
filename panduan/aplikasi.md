@@ -13,6 +13,15 @@ Bantu kami untuk mengisi halaman ini... 🥺
 
 ## Aplikasi Klien
 
+| Nama          | Versi          | Tautan | Profil
+|:------------- |:------------------|:------|:-----|
+| Bluesky (official) | web, aplikasi | bsky.app  | @bsky.app |
+| Blue.deck | web | deck.blue  | @deck.blue |
+| Graysky| aplikasi | graysky.app   | @graysky
+| Skyfeed| web, aplikasi | skyfeed.com  | @skyfeed.app
+
 ## Tools
 
-## Social Graph dan Analitik
+* Blockenheimer
+* [Twexit.nl](https://twexit.nl)
+* [Atlas](https://bsky.jazco.dev)

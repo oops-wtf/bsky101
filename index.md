@@ -2,10 +2,10 @@
 title: Halaman Utama
 layout: default
 nav_order: 1
-description: "Laman ini berisi panduan dan semua yang berkaitan dengan Bluesky dalam bahasa Indonesia."
+description: "Bluesky 101 berisi informasi, panduan tertulis, dan semua yang berkaitan dengan Bluesky, PBLLC (AT Protocol) dalam bahasa Indonesia."
 has_toc: true
 permalink: /
-last_modified_date: 2023-12-15 10:12
+last_modified_date: 2023-12-15 22:04
 ---
 
 # Selamat datang! 👋

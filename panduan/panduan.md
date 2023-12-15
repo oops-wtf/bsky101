@@ -2,10 +2,10 @@
 title: Panduan Singkat
 layout: default
 nav_order: 2
-description: "Laman ini berisi panduan dan semua yang berkaitan dengan Bluesky dalam bahasa Indonesia."
+description: "Laman ini berisi panduan singkat dan pandangan sekilas tentang isi dari keseluruhan situs Bluesky 101 sebagai pedoman bagi pengguna baru 🙌"
 has_toc: true
 permalink: /panduan
-last_modified_date: 2023-12-15 20:19
+last_modified_date: 2023-12-15 22:05
 ---
 
 {: .catatan }

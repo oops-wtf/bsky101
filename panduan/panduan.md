@@ -12,7 +12,7 @@ last_modified_date: 2023-12-15 20:19
 Bantu kami untuk melengkapi laman ini... 🥺
 
 {: .no_toc }
-Laman ini berisi panduan singkat dan pandangan sekilas tentang isi dari keseluruhan situs **Bluesky 101** sebagai pedoman bagi pengguna baru Bluesky Indonesia 🙌
+Laman ini berisi panduan singkat dan pandangan sekilas tentang isi dari keseluruhan situs **Bluesky 101** sebagai pedoman bagi pengguna baru 🙌
 {: .fs-6 .fw-300 }
 
 <details open markdown="block">

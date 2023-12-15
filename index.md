@@ -11,7 +11,7 @@ last_modified_date: 2023-12-15 10:12
 # Selamat datang! 👋
 {: .fs-9 }
 
-**Bluesky 101** berisi panduan tertulis dan semua yang berkaitan dengan Bluesky Social dalam bahasa Indonesia.
+**Bluesky 101** berisi informasi, panduan tertulis, dan semua yang berkaitan dengan Bluesky, PBLLC (AT Protocol) dalam bahasa Indonesia.
 {: .fs-6 .fw-300 }
 
 ---

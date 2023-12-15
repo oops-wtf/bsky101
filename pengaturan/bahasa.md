@@ -8,3 +8,6 @@ parent: Pengaturan dan Fitur
 permalink: /bahasa
 last_modified_date: 2023-12-15 01:22
 ---
+
+{: .catatan }
+Bantu kami untuk melengkapi halaman ini... 🥺

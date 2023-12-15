@@ -1,174 +1,83 @@
-# just-the-docs-template
+# Skema Kontribusi
 
-This is a *bare-minimum* template to create a [Jekyll] site that:
+Setelah Anda membaca atau menggunakan Bluesky 101, Anda dapat berkontribusi dalam pengembangannya.
+Sebelum mulai berkontribusi, mohon baca dokumen berikut supaya Anda mengerti dengan alur kontribusi, dan proyek ini dapat dikerjakan dengan lancar.
 
-- uses the [Just the Docs] theme;
-- can be built and published on [GitHub Pages];
-- can be built and previewed locally, and published on other platforms.
+# Bentuk Kontribusi
 
-More specifically, the created site:
+Anda dapat berkontribusi dengan cara apapun. Contoh:
 
-- uses a gem-based approach, i.e. uses a `Gemfile` and loads the `just-the-docs` gem;
-- uses the [GitHub Pages / Actions workflow] to build and publish the site on GitHub Pages.
+1. Menuliskan ulasan (*review*)
+2. Memberikan masukan, misalnya ketika ada pembahasan materi yang kurang jelas
+3. Melaporkan adanya penjelasan yang kurang tepat
+4. Melaporkan kesalahan pengetikan
+5. Mengerjakan isu terbuka (ditunjukkan dengan label *open*) yang diangkat orang lain (kontribusi Anda sangat dibutuhkan!)
 
-To get started with creating a site, simply:
+Untuk kontribusi semacam poin 1 sampai poin 4, Anda perlu [menuliskan isu](#menuliskan-isu) terlebih dahulu. Tujuannya untuk mendiskusikan jalan keluar dan tindakan apa yang akan dilakukan setelah isu tersebut diangkat.
 
-1. click "[use this template]" to create a GitHub repository
-2. go to Settings > Pages > Build and deployment > Source, and select GitHub Actions
+# Menuliskan Isu
 
-If you want to maintain your docs in the `docs` directory of an existing project repo, see [Hosting your docs from an existing project repo](#hosting-your-docs-from-an-existing-project-repo).
+Anda dapat menuliskan isu yang berhubungan dengan **materi pembelajaran**. Untuk isu terkait dengan soal, harap kunjungi [halaman berikut](https://github.com/ia-toki/Training-TLX).
 
-After completing the creation of your new site on GitHub, update it as needed:
+Seluruh masukan yang Anda berikan dituliskan pada [GitHub Issue Tracker](https://github.com/ia-toki/training-gate-id/issues). Untuk menuliskan isu, Anda perlu memiliki akun [GitHub](http://github.com/). Beberapa hal yang perlu diperhatikan:
 
-## Replace the content of the template pages
+1. Periksa apakah isu yang akan Anda angkat sudah pernah dikerjakan. Caranya dengan mengacu pada [branch master](https://github.com/ia-toki/training-gate-id) dan memastikan isu yang akan Anda angkat masih perlu diselesaikan.
+2. Periksa apakah isu yang serupa sudah pernah diangkat. Caranya dengan melihat daftar [GitHub Issue Tracker](https://github.com/ia-toki/training-gate-id/issues).
 
-Update the following files to your own content:
+Tata cara penulisan isu:
 
-- `index.md` (your new home page)
-- `README.md` (information for those who access your site repo on GitHub)
+1. Tulis isu dengan Bahasa Indonesia.
+2. Judul isu merupakan garis besar tentang apa yang Anda angkat sebagai isu, tuliskan dengan singkat dan jelas. Khusus untuk isu yang menyangkut suatu materi, tulis dalam format "\<judul materi\>: \<isu Anda\>". Beberapa contoh penulisan isu: "Pencarian: tambahan contoh", "Perulangan lanjut: perbaikan typo", "Tokitex error untuk penambahan gambar .TIFF".
+3. Isi isu merupakan penjelasan tentang apa yang Anda angkat sebagai isu, tuliskan dengan jelas dan tidak ambigu (tidak menimbulkan pertanyaan dari kontributor lainnya). Jika isu yang diangkat mengacu pada suatu materi, tuliskan di slide ke berapa. Jika mengacu pada penulisan kata-kata, tuliskan di mana kata tersebut muncul. Jika isu yang diangkat adalah penulisan materi baru, cukup tuliskan secara garis besar apa yang akan Anda tulis.
 
-## Changing the version of the theme and/or Jekyll
+Setelah isu dituliskan, kontributor dari IA TOKI akan menanggapi masukan Anda dan membahasnya pada isu yang Anda tambahkan. Hasil akhir dari pembahasan adalah keputusan apakah masukan tersebut akan diimplementasikan pada TOKI Training Gate. Jika diputuskan bahwa masukan itu akan diimplementasikan, Anda boleh memutuskan apakah Anda yang akan mengimplementasikannya atau tidak. Jika ya, ikuti [tata cara implementasi](#tata-cara-implementasi). Jika tidak, isu tersebut akan menjadi *open issue* dan dapat dikerjakan oleh kontributor lainnya (mengacu pada poin 5 pada [bentuk kontribusi](#bentuk-kontribusi)).
 
-Simply edit the relevant line(s) in the `Gemfile`.
+# Tata Cara Implementasi
 
-## Adding a plugin
+Anda diharapkan paham perintah-perintah dasar git seperti clone, checkout, branch, add, commit, push, dan pull. Tutorial penggunaan git sudah banyak beredar di internet. Salah satu yang singkat dan mudah dipahami: https://try.github.io/levels/1/challenges/1
 
-The Just the Docs theme automatically includes the [`jekyll-seo-tag`] plugin.
+Selain itu, Anda juga diharapkan memiliki pengetahuan tentang penulisan materi dengan Markdown.
 
-To add an extra plugin, you need to add it in the `Gemfile` *and* in `_config.yml`. For example, to add [`jekyll-default-layout`]:
+Jika Anda baru pertama kali akan melakukan kontribusi, lakukan langkah-langkah berikut:
 
-- Add the following to your site's `Gemfile`:
+1. Fork repository TOKI Training Gate dengan pergi ke [halaman utama](https://github.com/oops-wtf/bsky-docs), lalu pilih fork di ujung kanan atas.
+2. Pilih username Anda untuk melakukan fork.
+3. Lakukan clone terhadap repository yang sudah Anda fork, dengan mengetikkan `git clone https://github.com/<username Anda>/bsky-docs.git`.
+4. Lakukan `git remote add upstream https://github.com/oops-wtf/bsky-docs`. Perintah ini bertujuan untuk membuat sebuah remote bernama `upstream` yang merujuk pada repository bsky-doc, sehingga Anda bisa melakukan pull dari repository bsky-doc ke repository hasil fork Anda.
 
-  ```ruby
-  gem "jekyll-default-layout"
-  ```
+Setelah itu, Anda bisa mulai bekerja dengan:
 
-- And add the following to your site's `_config.yml`:
+1. Pastikan Anda berada di branch master. Caranya dengan mengetikkan perintah `git status` dan pastikan ada tulisan `On branch master`. Jika Anda belum berada di branch master, ketikkan `git checkout master`.
+2. Checkout branch baru dengan cara mengetikkan `git checkout -b <nama branch>`. Gunakan nama branch dalam bahasa Inggris (*camelCase*), mudah dipahami, dan berkaitan dengan isu yang mau Anda selesaikan. Contoh nama branch: "addRecursiveExample", "modifyMergeSortMaterial".
+3. Lakukan perubahan secukupnya. Anda bebas melakukan add, commit, atau push. Namun sebaiknya Anda tidak melakukan merge atau pull. Hal ini akan mengakibatkan struktur graph git menjadi kurang rapi. Ketimbang melakukan merge atau pull, lakukan rebase atau pull --rebase, atau tidak sama sekali.
+4. Setelah Anda selesai mengerjakan, lakukan `git push origin <nama branch>`.
+5. Kemudian lakukan pull request dengan:
+ 1. Pergi ke halaman [pull request](https://github.com/oops-wtf/bsky-docs/pulls).
+ 2. Pilih `New pull request`.
+ 3. Kemudian pilih link `compare across forks`.
+ 4. Pilih `base fork: oops-wtf/bsky-docs`, `base: master`, `head fork: <username Anda>/bsky-docs`, dan `compare: <nama branch yang mau di-push>`.
+ 5. Pilih `Create pull request`, isi judul dan penjelasan singkat tentang apa saja yang sudah Anda kerjakan, lalu pilih lagi `Create pull request`.
+ 6. Pastikan hasil push Anda lulus build dari Travis CI (jika tidak lulus, lihat pesan kesalahannya, perbaiki, lalu commit lagi).
+6. Kontributor dari IA TOKI akan melakukan review terhadap perubahan yang Anda lakukan. Jika belum disepakati, perubahan Anda akan diberi ulasan dan Anda dapat memperbaikinya. Jika sudah disepakati, kontribusi Anda akan digunakan dan dimasukkan ke materi Training Gate.
+7. Anda bisa kembali ke branch master dengan cara mengetikkan `git checkout master`.
+8. Jika kontribusi Anda sudah digabungkan dengan master, Anda bisa melakukan pull dengan mengetikkan `git pull upstream master` untuk mendapatkan perubahan dari repository TOKI Training Gate.
 
-  ```yaml
-  plugins:
-    - jekyll-default-layout
-  ```
+# Panduan Menulis
 
-Note: If you are using a Jekyll version less than 3.5.0, use the `gems` key instead of `plugins`.
+Pada pada beberapa materi, masih terdapat slide dengan judul <TODO: ...> (lihat daftar isu untuk mengetahui materi mana saja yang masuk dalam kategori ini). Artinya materi ini masih butuh pengembangan konten dan Anda bisa menambahkan konten sesuai petunjuk yang ditulis pada halaman tersebut. Tentu saja, Anda boleh menambahkan beberapa slide untuk materi tersebut. Selain pada materi yang mengandung <TODO: ...> dan konten wajib, boleh juga ditambahkan beberapa konten yang dirasa penting dan telah disepakati pada diskusi isu.
 
-## Publishing your site on GitHub Pages
+Untuk membuat tulisan konsisten antar materi, berikut konvensi yang ditetapkan:
 
-1.  If your created site is `YOUR-USERNAME/YOUR-SITE-NAME`, update `_config.yml` to:
-
-    ```yaml
-    title: YOUR TITLE
-    description: YOUR DESCRIPTION
-    theme: just-the-docs
-
-    url: https://YOUR-USERNAME.github.io/YOUR-SITE-NAME
-
-    aux_links: # remove if you don't want this link to appear on your pages
-      Template Repository: https://github.com/YOUR-USERNAME/YOUR-SITE-NAME
-    ```
-
-2.  Push your updated `_config.yml` to your site on GitHub.
-
-3.  In your newly created repo on GitHub:
-    - go to the `Settings` tab -> `Pages` -> `Build and deployment`, then select `Source`: `GitHub Actions`.
-    - if there were any failed Actions, go to the `Actions` tab and click on `Re-run jobs`.
-
-## Building and previewing your site locally
-
-Assuming [Jekyll] and [Bundler] are installed on your computer:
-
-1.  Change your working directory to the root directory of your site.
-
-2.  Run `bundle install`.
-
-3.  Run `bundle exec jekyll serve` to build your site and preview it at `localhost:4000`.
-
-    The built site is stored in the directory `_site`.
-
-## Publishing your built site on a different platform
-
-Just upload all the files in the directory `_site`.
-
-## Customization
-
-You're free to customize sites that you create with this template, however you like!
-
-[Browse our documentation][Just the Docs] to learn more about how to use this theme.
-
-## Hosting your docs from an existing project repo
-
-You might want to maintain your docs in an existing project repo. Instead of creating a new repo using the [just-the-docs template](https://github.com/just-the-docs/just-the-docs-template), you can copy the template files into your existing repo and configure the template's Github Actions workflow to build from a `docs` directory. You can clone the template to your local machine or download the `.zip` file to access the files.
-
-### Copy the template files
-
-1.  Create a `.github/workflows` directory at your project root if your repo doesn't already have one. Copy the `pages.yml` file into this directory. GitHub Actions searches this directory for workflow files.
-
-2.  Create a `docs` directory at your project root and copy all remaining template files into this directory.
-
-### Modify the GitHub Actions workflow
-
-The GitHub Actions workflow that builds and deploys your site to Github Pages is defined by the `pages.yml` file. You'll need to edit this file to that so that your build and deploy steps look to your `docs` directory, rather than the project root.
-
-1.  Set the default `working-directory` param for the build job.
-
-    ```yaml
-    build:
-      runs-on: ubuntu-latest
-      defaults:
-        run:
-          working-directory: docs
-    ```
-
-2.  Set the `working-directory` param for the Setup Ruby step.
-
-    ```yaml
-    - name: Setup Ruby
-        uses: ruby/setup-ruby@v1
-        with:
-          ruby-version: '3.1'
-          bundler-cache: true
-          cache-version: 0
-          working-directory: '${{ github.workspace }}/docs'
-    ```
-
-3.  Set the path param for the Upload artifact step:
-
-    ```yaml
-    - name: Upload artifact
-        uses: actions/upload-pages-artifact@v1
-        with:
-          path: "docs/_site/"
-    ```
-
-4.  Modify the trigger so that only changes within the `docs` directory start the workflow. Otherwise, every change to your project (even those that don't affect the docs) would trigger a new site build and deploy.
-
-    ```yaml
-    on:
-      push:
-        branches:
-          - "main"
-        paths:
-          - "docs/**"
-    ```
-
-## Licensing and Attribution
-
-This repository is licensed under the [MIT License]. You are generally free to reuse or extend upon this code as you see fit; just include the original copy of the license (which is preserved when you "make a template"). While it's not necessary, we'd love to hear from you if you do use this template, and how we can improve it for future use!
-
-The deployment GitHub Actions workflow is heavily based on GitHub's mixed-party [starter workflows]. A copy of their MIT License is available in [actions/starter-workflows].
-
-----
-
-[^1]: [It can take up to 10 minutes for changes to your site to publish after you push the changes to GitHub](https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/creating-a-github-pages-site-with-jekyll#creating-your-site).
-
-[Jekyll]: https://jekyllrb.com
-[Just the Docs]: https://just-the-docs.github.io/just-the-docs/
-[GitHub Pages]: https://docs.github.com/en/pages
-[GitHub Pages / Actions workflow]: https://github.blog/changelog/2022-07-27-github-pages-custom-github-actions-workflows-beta/
-[Bundler]: https://bundler.io
-[use this template]: https://github.com/just-the-docs/just-the-docs-template/generate
-[`jekyll-default-layout`]: https://github.com/benbalter/jekyll-default-layout
-[`jekyll-seo-tag`]: https://jekyll.github.io/jekyll-seo-tag
-[MIT License]: https://en.wikipedia.org/wiki/MIT_License
-[starter workflows]: https://github.com/actions/starter-workflows/blob/main/pages/jekyll.yml
-[actions/starter-workflows]: https://github.com/actions/starter-workflows/blob/main/LICENSE
+1. Gunakan kata "Anda" (diawali huruf kapital) untuk merujuk pada pembaca, bukan "kamu", atau "kalian".
+2. Gunakan kata "kita" untuk merujuk pada pembaca dan penulis.
+3. Jangan ada penjelasan yang disampaikan dari sudut pandang orang pertama, seperti "saya akan menjelaskan bagaimana quick sort bekerja..." atau "penulis akan memberi contoh...".
+4. Saat menulis kode sumber, ikuti [**panduan menulis kode**](#panduan-menulis-kode) yang telah ditetapkan.
+5. Pada penjelasan:
+    1. Rujuk nama identifier dengan menuliskan entitas tersebut dalam cetak tebal, contoh: **counter**, **isPrime**.
+    2. Cetak tebal setiap istilah asing yang merupakan bagian dari bahasa pemrograman, contoh: **longint**, **function**, **if ... then**, **writeln**.
+    3. Cetak miring setiap istilah asing lainnya, contoh: *default*, *infinite loop*, *compile error*.
+    4. Bila ada istilah yang baru diperkenalkan, Anda boleh juga mencetak tebal dan membuatnya berwarna merah (dengan perintah \alert{}).
+    5. Penekanan pada penjelasan bisa menggunakan cetak merah (dengan perintah \alert{}).
+    6. Rujuk suatu perintah pada program dengan petik dua, contoh: "fpb := fpb(b, a mod b)".
+6. Jika suatu topik dijelaskan pada beberapa slide, tambahkan "... (lanj.)" pada halaman slide berikutnya.
+7. Jika Anda menambahkan gambar, masukkan gambar tersebut di folder aset materi yang bersangkutan. Masukkan juga berkas mentah gambar tersebut (misalnya .svg, .pdf). Hindari hanya memasukkan gambar jadinya (misalnya .png atau .jpg) karena gambar tidak bisa diedit lagi (kecuali gambar tersebut memang screenshot). Lebih disarankan menggunakan .svg dan pengolah gambar [inkscape](https://inkscape.org/).

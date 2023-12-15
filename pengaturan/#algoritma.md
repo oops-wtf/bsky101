@@ -11,10 +11,12 @@ last_modified_date: 2023-12-15 01:22
 
 # Feed dan Algoritma
 
-Berbeda dengan [Twitter] atau [Mastodon] yang [^1]
+{: .catatan }
+Bantu kami untuk melengkapi halaman ini... 🥺
+
+Berbeda dengan [Twitter] atau [Mastodon]
 
 ---
-[^1]: aasas
 
 [Twitter]: https://jekyllrb.com
 [Mastodon]: https://mastodon.social

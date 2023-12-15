@@ -12,6 +12,9 @@ last_modified_date: 2023-12-15 02:45
 
 Berisi daftar pertanyaan yang sering diajukan
 
+{: .catatan }
+Bantu kami untuk melengkapi laman ini... 🥺
+
 <details markdown="block">
 <summary>Kenapa Bluesky tidak menggunakan AcivityPub?</summary>
 

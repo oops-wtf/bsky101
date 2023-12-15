@@ -7,3 +7,12 @@ has_toc: true
 permalink: /aplikasi
 last_modified_date: 2023-12-15 01:13
 ---
+
+{: .catatan }
+Bantu kami untuk mengisi halaman ini... 🥺
+
+## Aplikasi Klien
+
+## Tools
+
+## Social Graph dan Analitik

@@ -1,11 +1,13 @@
 ---
 title: Daftar Rekomendasi Feed
+description: Meskipun berbeda dalam penyebutannya, handle Bluesky sama dengan username di media sosial lain.
 layout: home
 nav_order: 3
 has_toc: true
 parent: Feed dan Algoritma
 grand_parent: Pengaturan dan Fitur
 permalink: /rekomendasi-feed
+last_modified_date: 2023-12-16 10:40
 ---
 
 {: .catatan }
@@ -25,7 +27,8 @@ Bantu kami untuk melengkapi laman ini... 🥺
 
 ---
 
-## Feed Algoritmik
+## Feed Algoritmik [Baru](#){: .label }
+0. [Following](https://bsky.app) : Feed utama berisi kiriman terbaru (*chronological*) dari pengguna lain yang Anda ikuti. Feed ini bisa dikustomisasi melalui pengaturan [Home Feed Preferences](https://bsky.app/settings/home-feed) seperti hanya menampilkan post saja, menampilkan atau menghilangkan *repost*, *quoted post*, atau menampilkan *replies* pengguna lain sesuai jumlah *likes* -nya.
 0. [Mutuals] : Menampilkan kiriman dari pengguna yang saling mengikuti (mutual)
 0. [Followers] : Kebalikan dari feed following, feed ini menampilkan pengguna yang mengikuti Anda tetapi tidak Anda ikuti
 0. [Home+] : Menampikan kiriman menggunakan algoritma Twitter (*for you*)

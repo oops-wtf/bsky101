@@ -10,16 +10,24 @@ permalink: /riwayat
 {: .sorotan }
 Semua perubahan penting yang berhubungan dengan sebagian atau keseluruhan isi situs didokumentasikan dalam laman ini.
 
+## v0.1.3
+16 Desember 2023
+* Menambahkan tulisan baru di Feed
+* Menambahkan tulisan baru di ATProto
+* Menambahkan daftar baru di Rekomendasi Feed Algoritmik
+* Menambahkan tulisan baru di Pelabelan dan Daftar Moderasi
+
+
 ## v0.1.2
 * Menghapus halaman moderasi untuk mutelist, tools dan analitik
-* Menambahkan tulisan baru pada laman Panduan Singkat
-* Menambahkan tulisan baru pada laman Domain Handle
-* Menambahkan tulisan baru pada laman Cakrawala Indonesia (CI)
-* Menambahkan tulisan baru pada laman Moderasi
-* Menambahkan tulisan baru pada laman Domain Handle
-* Menambahkan tulisan baru pada laman Aplikasi Bluesky
-* Menambahkan tulisan baru pada laman Moderasi
-* Menambahkan tulisan baru pada laman Daftar Rekomendasi Feed
+* Menambahkan tulisan baru di Panduan Singkat
+* Menambahkan tulisan baru di Domain Handle
+* Menambahkan tulisan baru di Cakrawala Indonesia (CI)
+* Menambahkan tulisan baru di Moderasi
+* Menambahkan tulisan baru di Domain Handle
+* Menambahkan tulisan baru di Aplikasi Bluesky
+* Menambahkan tulisan baru di Moderasi
+* Menambahkan tulisan baru di Daftar Rekomendasi Feed
 
 ## v0.1.0
 15 Desember 2023

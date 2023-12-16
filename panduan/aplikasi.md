@@ -1,11 +1,11 @@
 ---
 title: Aplikasi Bluesky
+description: "Daftar pilihan aplikasi klien pihak ketiga bluesky"
 layout: default
 nav_order: 6
-description: "Pilihan aplikasi pihak ketiga bluesky"
 has_toc: true
 permalink: /aplikasi
-last_modified_date: 2023-12-15 01:13
+last_modified_date: 2023-12-16 10:45
 ---
 
 {: .catatan }
@@ -20,8 +20,8 @@ Bantu kami untuk mengisi halaman ini... 🥺
 | Graysky| aplikasi | graysky.app   | @graysky
 | Skyfeed| web, aplikasi | skyfeed.com  | @skyfeed.app
 
-## Tools
+## Alat dan Statistik
 
 * Blockenheimer
-* [Twexit.nl](https://twexit.nl)
+* [Twexit.nl](https://twexit.nl) : Secara khusus digunakan untuk membuat daftar moderasi berdasarkan pengondisian seperti *keyword*, *liked post*
 * [Atlas](https://bsky.jazco.dev)

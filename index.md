@@ -2,7 +2,7 @@
 title: Halaman Utama
 layout: default
 nav_order: 1
-description: "Bluesky 101 berisi informasi, panduan tertulis, dan semua yang berkaitan dengan Bluesky, PBLLC (AT Protocol) dalam bahasa Indonesia."
+description: "Bluesky 101 berisi informasi, panduan tertulis, dan semua yang berkaitan dengan Bluesky"
 has_toc: true
 permalink: /
 last_modified_date: 2023-12-15 22:04
@@ -16,7 +16,7 @@ last_modified_date: 2023-12-15 22:04
 
 ---
 
-Situs ini dibuat atas inisiasi [@oops.wtf](https://bsky.app/profile/oops.wtf) untuk kemudian diserahkan kepada komunitas Bluesky Indonesia untuk dikelola bersama.
+Situs ini dibuat atas inisiasi [@oops.wtf](https://bsky.app/profile/oops.wtf) untuk kemudian diserahkan kepada komunitas Bluesky Indonesia agar dapat dikelola bersama.
 
 Jika Anda sudah tahu apa yang akan Anda cari, ketikkan di kotak pencarian. Namun, jika Anda memerlukan pandangan sekilas tentang isi dari keseluruhan situs ini, lihat gambaran umumnya dalam [panduan singkat]({% link panduan/panduan.md %}).
 
@@ -25,7 +25,7 @@ Jika Anda sudah tahu apa yang akan Anda cari, ketikkan di kotak pencarian. Namun
 Apabila Anda ingin berkontribusi pada situs ini, harap diskusikan terlebih dahulu perubahan yang ingin Anda lakukan melalui isu, surel, pesan singkat, atau metode lainnya dengan pengelola sebelum membuat perubahan. 
 
 {: .penting }
-Baca lebih lanjut tentang menjadi kontributor di [repositori GitHub](https://github.com/oops-wtf/bsky-doc#skema-kontribusi) kami.
+Baca lebih lanjut tentang skema kontribusi di [repositori GitHub](https://github.com/oops-wtf/bsky-doc#skema-kontribusi) kami.
 
 #### Terima kasih kepada para kontributor Bluesky Indonesia!
 

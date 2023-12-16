@@ -27,7 +27,7 @@ Bantu kami untuk melengkapi laman ini... 🥺
 
 ---
 
-## Feed Algoritmik [Baru](#){: .label }
+## Feed Algoritmik
 0. [Following](https://bsky.app) : Feed utama berisi kiriman terbaru (*chronological*) dari pengguna lain yang Anda ikuti. Feed ini bisa dikustomisasi melalui pengaturan [Home Feed Preferences](https://bsky.app/settings/home-feed) seperti hanya menampilkan post saja, menampilkan atau menghilangkan *repost*, *quoted post*, atau menampilkan *replies* pengguna lain sesuai jumlah *likes* -nya.
 0. [Mutuals] : Menampilkan kiriman dari pengguna yang saling mengikuti (mutual)
 0. [Followers] : Kebalikan dari feed following, feed ini menampilkan pengguna yang mengikuti Anda tetapi tidak Anda ikuti

@@ -1,5 +1,6 @@
 ---
 title: Riwayat Penyuntingan
+description: Perubahan pada sebagian atau keseluruhan isi situs Bluesky 101 didokumentasikan dalam laman ini.
 layout: default
 nav_order: 11
 permalink: /riwayat
@@ -8,7 +9,7 @@ permalink: /riwayat
 # Riwayat Penyuntingan
 
 {: .sorotan }
-Semua perubahan penting yang berhubungan dengan sebagian atau keseluruhan isi situs didokumentasikan dalam laman ini.
+Perubahan pada sebagian atau keseluruhan isi situs Bluesky 101 didokumentasikan dalam laman ini.
 
 ## v0.1.3
 16 Desember 2023

@@ -28,31 +28,33 @@ Bantu kami untuk melengkapi laman ini... 🥺
 ---
 
 ## Feed Algoritmik
-0. [Following](https://bsky.app) : Feed utama berisi kiriman terbaru (*chronological*) dari pengguna lain yang Anda ikuti. Feed ini bisa dikustomisasi melalui pengaturan [Home Feed Preferences](https://bsky.app/settings/home-feed) seperti hanya menampilkan post saja, menampilkan atau menghilangkan *repost*, *quoted post*, atau menampilkan *replies* pengguna lain sesuai jumlah *likes* -nya.
-0. [Mutuals] : Menampilkan kiriman dari pengguna yang saling mengikuti (mutual)
-0. [Followers] : Kebalikan dari feed following, feed ini menampilkan pengguna yang mengikuti Anda tetapi tidak Anda ikuti
-0. [Home+] : Menampikan kiriman menggunakan algoritma Twitter (*for you*)
-0. [Catch Up] : Menampilkan kiriman populer dalam 24 jam terakhir
-0. [All-Time Bangers] : Menampilan kiriman yang paling banyak di sukai di jaringan Bluesky sejak sejak 26 Mei 2023
+* [Following](https://bsky.app) : Feed bawaan Bluesky berisi postingan terbaru (*chronological*) dari pengguna lain yang Anda ikuti. Feed ini bisa dikustomisasi melalui pengaturan [Home Feed Preferences](https://bsky.app/settings/home-feed) seperti menampilkan post saja, menampilkan atau menghilangkan *repost*, *quoted post*, atau menampilkan *replies* pengguna lain sesuai jumlah *likes* -nya.
+* [Mutuals] : Menampilkan kiriman dari pengguna yang saling mengikuti (mutual).
+* [Quiet Posters] : Menampilkan kiriman dari pengguna yang jarang aktif.
+* [Followers] : Kebalikan dari feed following, feed ini menampilkan kiriman follower yang tidak Anda ikuti.
+* [Home+] : Menampikan kiriman di jaringan Bluesky seperti feed Discover, tetapi menggunakan pendekatan algoritma Twitter (*for you*).
+* [Catch Up] : Menampilkan kiriman populer dalam 24 jam terakhir.
+* [All-Time Bangers] : Menampilan kiriman yang paling banyak di sukai di jaringan Bluesky sejak 26 Mei 2023.
 
 ## Feed Klaster
-0. [Cakrawala Indonesia] : Cakrawala berisi kiriman dari semua pengguna dalam klaster bahasa Indonesia.
-0. [WIB] : Seperti Cakrawala tetapi menampilkan percakapan antar pengguna (*replies*)
+* [Cakrawala Indonesia] : Cakrawala berisi kiriman dari semua pengguna dalam klaster bahasa Indonesia.
+* [WIB] : Seperti Cakrawala tetapi menampilkan percakapan antar pengguna (*replies*).
 
 ## Feed Komunitas
-0. [ArtIDN]
-0. [Game Developer Indonesia]
-0. [Roleplayer Area]
+* [ArtIDN]
+* [Game Developer Indonesia]
+* [Roleplayer Area]
 
 ## Hobi, Berita, dan Olahraga
-0. [Shuttle Hustle 🏸]
-0. [Premier League Football]
+* [Shuttle Hustle 🏸]
+* [Premier League Football]
 
 [Mutuals]: https://bsky.app/profile/did:plc:tenurhgjptubkk5zf5qhi3og/feed/mutuals
 [Followers]: https://bsky.app/profile/did:plc:q6gjnaw2blty4crticxkmujt/feed/my-followers
 [Home+]: https://bsky.app/profile/did:plc:2wqomm3tjqbgktbrfwgvrw34/feed/home-plus
 [Catch Up]: https://bsky.app/profile/did:plc:tenurhgjptubkk5zf5qhi3og/feed/catch-up
 [All-Time Bangers]: https://bsky.app/profile/did:plc:q6gjnaw2blty4crticxkmujt/feed/at-bangers
+[Quiet Posters]: https://bsky.app/profile/did:plc:vpkhqolt662uhesyj6nxm7ys/feed/infreq
 
 [Cakrawala Indonesia]: https://bsky.app/profile/did:plc:7opjnfmb6gtbgjrsr3777ujx/feed/aaagz4bmp5o3c
 [WIB]: https://bsky.app/profile/did:plc:hgtwngfanh2xh2euslos2vxn/feed/aaalk3ftf7vlk

@@ -29,7 +29,7 @@ Laman ini berisi panduan singkat dan pandangan sekilas tentang isi dari keseluru
 ## Bluesky 101: Panduan Dasar
 Setelah berhasil mendaftar, berikut beberapa hal yang perlu Anda ketahui sebagai dasar pengetahuan Anda tentang Bluesky:
 
-0. Bluesky adalah salah satu sosial media yang [terdesentralisasi]({% link atproto/desentralisasi.md %}) seperti halnya [Mastodon]{:target="_blank"}. Jika Mastodon menggunakan ActivityPub, Bluesky menggunakan protokol yang berbeda yaitu [AT Protocol]({% link atproto/0-atproto.md %}). Lihat perbandingannya [di sini]({% link atproto/pros-cons.md %}).
+0. Bluesky adalah salah satu sosial media yang [terdesentralisasi]({% link atproto/desentralisasi.md %}) seperti [Mastodon]{:target="_blank"}. Jika Mastodon menggunakan ActivityPub, Bluesky menggunakan protokol yang berbeda yaitu [AT Protocol]({% link atproto/0-atproto.md %}). Lihat perbandingannya [di sini]({% link atproto/pros-cons.md %}).
 0. Anda dapat mengakses [bsky.app]{:target="_blank"} dengan browser atau melalui berbagai pilihan [aplikasi pihak ketiga]({% link panduan/aplikasi.md %}#aplikasi-klien) dari perangkat ponsel.
 0. Lakukan perubahan pada nama, foto profil, bio, *header/banner*, dan [*handle*]({% link pengaturan/handle.md %}). Foto profil dan *header* untuk saat ini hanya mendukung format `.jpg` dan `.png` (*non-transparent*) saja dengan aspect ratio 1:1 (*square*) dan 3:1 untuk *header*.
 0. Handle (username) Bluesky akan terlihat panjang jika dibandingkan dengan Twitter (mis. **@nama.bsky.social**). Username ini bukan hanya berfungsi sebagai penanda, tetapi juga sebagai identitas pengganti "[centang biru]({% link pengaturan/handle.md %}#pengganti-centang-biru)".

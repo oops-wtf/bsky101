@@ -14,9 +14,9 @@ Semua perubahan penting yang berhubungan dengan sebagian atau keseluruhan isi si
 16 Desember 2023
 * Menambahkan tulisan baru di Feed
 * Menambahkan tulisan baru di ATProto
-* Menambahkan daftar baru di Rekomendasi Feed Algoritmik
-* Menambahkan tulisan baru di Pelabelan dan Daftar Moderasi
-
+* Menambahkan daftar baru dalam Rekomendasi Feed Algoritmik
+* Menambahkan tulisan baru tentang Pelabelan dan Daftar Moderasi
+* Menambahkan tulisan baru tentang Domain Handle
 
 ## v0.1.2
 * Menghapus halaman moderasi untuk mutelist, tools dan analitik

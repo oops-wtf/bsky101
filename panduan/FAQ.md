@@ -10,26 +10,40 @@ last_modified_date: 2023-12-15 02:45
 
 # Daftar Pertanyaan yang Sering Diajukan
 
-Berisi daftar pertanyaan yang sering diajukan
-
 {: .catatan }
 Bantu kami untuk melengkapi laman ini... 🥺
 
 <details markdown="block">
-<summary>Kenapa Bluesky tidak menggunakan AcivityPub?</summary>
-
-Karena anu...
-
+<summary>Mengapa username Bluesky terlihat panjang?</summary>
+...
 </details>
+
 <details markdown="block">
-<summary>Kapan Bluesky akan open public?</summary>
-
-Gatau,
-
+<summary>Kapan Bluesky akan menyediakan fitur video, gif, hashtag, DM, private account, dll.?</summary>
+Terkait dengan fitur, [lihat pada roadmap]({% link panduan/roadmap.md %}).
 </details>
+
 <details markdown="block">
-<summary>Kapan ada fitur video</summary>
+<summary>Mengapa mendaftar di Bluesky memerlukan kode undangan?</summary>
+...
+</details>
 
-Gatau juga..
+<details markdown="block">
+<summary>Kapan Bluesky akan dibuka untuk umum?</summary>
+...
+</details>
 
+<details markdown="block">
+<summary>Apakah Bluesky benar-benar terdesentralisasi?</summary>
+...
+</details>
+
+<details markdown="block">
+<summary>Mengapa Bluesky tidak menggunakan ActivityPub seperti Mastodon?</summary>
+...
+</details>
+
+<details markdown="block">
+<summary>Apakah Bluesky akan terhubung dengan Mastodon?</summary>
+...
 </details>

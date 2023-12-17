@@ -18,6 +18,7 @@ Perubahan pada sebagian atau keseluruhan isi situs Bluesky 101 didokumentasikan 
 * Menambahkan daftar baru dalam Rekomendasi Feed Algoritmik
 * Menambahkan tulisan baru tentang Pelabelan dan Daftar Moderasi
 * Menambahkan tulisan baru tentang Domain Handle
+* Menambahkan daftar pertanyaan yang sering diajukan
 
 ## v0.1.2
 * Menghapus halaman moderasi untuk mutelist, tools dan analitik

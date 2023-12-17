@@ -5,7 +5,7 @@ layout: default
 nav_order: 2
 parent: Pengaturan dan Fitur
 permalink: /domain
-last_modified_date: 2023-12-16 10:45
+last_modified_date: 2023-12-17 14:36
 ---
 
 # Bluesky (*username*) Handle
@@ -26,9 +26,9 @@ Meskipun berbeda dalam penyebutannya, *handle* di Bluesky sama dengan *username*
 ## Tentang Domain
 Setiap perangkat yang terhubung di internet pada dasarnya memiliki alamat IP unik seperti `172.217.6.196`. Meskipun demikan, Anda tentu akan lebih mudah untuk mengingat `google.com` sebagai nama domain dibanding alamat IP-nya.
 
-Domain adalah nama unik untuk mengidentifikasi situs web di internet. Sebagai contoh, domain Bluesky adalah `bsky.app` atau situs berita Kompas.com dengan domain `kompas.com`. Domain dapat dibagi lagi menjadi subdomain. Misalnya, jika domain Anda adalah `contoh.com` tetapi Anda memiliki blog yang di-host di *blog.contoh.com*, maka blog adalah subdomain.
+Domain adalah nama unik untuk mengidentifikasi situs web di internet. Sebagai contoh, domain Bluesky adalah [bsky.app](https://bsky.app) atau situs berita Kompas.com dengan domain [kompas.com](https://kompas.com). Domain dapat dibagi lagi menjadi subdomain. Misalnya, jika domain Anda adalah `contoh.com` tetapi Anda memiliki blog yang di-host di `blog.contoh.com`, maka *blog* adalah subdomain.
 
-Secara teknis, AT Protocol lah yang memungkinkan Anda untuk menggunakan domain sebagai handle. Sedangkan Bluesky (app) adalah aplikasi klien yang dibuat Bluesky (team) di atas protokol ini, di mana Anda dapat menggunakan domain ***.bluesky.social** sebagai handle.
+Secara teknis, AT Protocol -lah yang memungkinkan Anda untuk menggunakan domain sebagai handle. Sedangkan Bluesky (app) adalah aplikasi klien yang dibuat Bluesky (team) di atas protokol ini, di mana Anda dapat menggunakan domain ***.bluesky.social** sebagai handle.
 
 ### Pengganti Centang Biru
 {: .no_toc }
@@ -36,30 +36,61 @@ Sama halnya dengan username di Mastodon, handle di Bluesky mungkin akan terlihat
 
 Perbedaanya, Mastodon menggunakan konsep domain sebagai username untuk mengidentifikasi *instance* (server) mana akun tersebut dibuat. Misalnya akun `@nama@mastodon.social`, menunjukkan akun `nama` dibuat di instance [mastodon.social](https://mastodon.social). Jika Anda ingin mengubah username Mastodon dari `@nama@mastodon.social` menjadi `@ini@namasaya.com` Anda harus membuat *instance* sendiri dengan domain `namasaya.com`.
 
-AT Protocol menggunakan domain untuk berbagai alasan:
-0. *Identitas* : Bluesky (app) adalah salah satu contoh aplikasi yang dibangun di atas ATProto. Jika sekarang Anda memiliki domain `@contoh.com` sebagai handle di Bluesky, maka Anda dapat menggunakan handle tersebut di semua aplikasi ATProto. 
-0. *Verifikasi* : Seperti pada sebuah situs web, domain handle di Bluesky menunjukkan kepemilikan *user* atas domain tersebut. Sebagai contoh, ruang redaksi The New York Times dapat mengubah handle mereka menjadi [@nytimes.com](https://bsky.app/profile/nytimes.com), Kemudian setiap jurnalis yang ingin diverifikasi dapat menggunakan subdomain seperti `@nama.nytimes.com`. Demikianlah alasan mengapa tidak ada akun dengan 'centang biru' di Bluesky.
+Berikut beberapa alasan AT Protocol menggunakan domain sebagai handle dan memprioritaskannya sebagai fitur utama Bluesky:
+0. **Identitas** : Anda dapat menggunakan handle yang sama untuk berbagai layanan sosial media ATProto. Bluesky (app) adalah salah satu contoh aplikasi yang dibangun di atas ATProto. Jika sekarang Anda memiliki domain `@contoh.com` sebagai handle di Bluesky, maka Anda dapat menggunakan handle tersebut di aplikasi ATProto yang lain sebagai identitas.
+0. **Verifikasi** : Anda bisa mengetahui akun mana yang benar-benar asli berdasarkan identitas domain atau situs web yang terkait dengannya. Seperti pada sebuah situs web, domain handle di Bluesky menunjukkan kepemilikan *user* atas domain tersebut. Sebagai contoh, ruang redaksi The New York Times dapat mengubah handle mereka menjadi [@nytimes.com](https://bsky.app/profile/nytimes.com), Kemudian setiap jurnalis yang ingin diverifikasi dapat menggunakan subdomain seperti `@nama.nytimes.com`. Demikianlah alasan mengapa tidak ada akun dengan 'centang biru' di Bluesky.
+0. **Portabilitas** : Anda tetap dapat menggunakan domain handle Anda ketika berpindah server. Ketika Bluesky sudah [terdesentralisasi]({% link atproto/desentralisasi.md %}) akan ada banyak [PDS (*instance server*)]({$ link atproto/pds-bgs-appview.md $}) selain [bsky.app](https://bsky.app). Anda bisa beralih ke berbagai server yang berbeda tanpa perlu mengganti domain handle.
 
 {: .catatan }
-Lihat akun reporter [@thomas.gizmodo.com](https://bsky.app/profile/thomas.gizmodo.com) untuk [@gizmodo.com](https://bsky.app/profile/gizmodo.com)
+Lihat akun reporter [@thomas.gizmodo.com](https://bsky.app/profile/thomas.gizmodo.com) untuk situs berita [@gizmodo.com](https://bsky.app/profile/gizmodo.com)
 
 ## Cara Mengubah Handle
 
 Handle bukanlah sesuatu yang mungkin akan sering Anda ubah, karena biasanya itu berkaitan dengan branding diri atau produk di suatu platform.
 
-Mengubahnya handle Bluesky tidak sesulit mencari cara mendapatkan kode undangannya. Berikut ini adalah langkah-langkah yang perlu Anda lakukan:
+Namun mengubah handle Bluesky tidak sesulit mencari cara mendapatkan kode undangannya. Berikut ini adalah langkah-langkah yang perlu Anda lakukan:
 
-0. Buka aplikasi atau web klien [bsky.app](https://bsky.app) di perangkat Anda.
-0. Ketuk ikon hamburger pada samping kiri (ponsel) atau sidebar (web)
-0. Pilih menu [Settings](https://bsky.app/settings)
-0. Gulir ke bawah dan ketuk *Change handle* di sub menu *Advanced* 
-0. Masukkan handle baru Anda (misalnya: **@nama.bsky.social**).
-0. Jika Anda sudah memiliki domain sendiri atau domain dari [daftar rekomendasi](#daftar-rekomendasi-domain). ketuk pada *I have my own domain*
-0. Pilih *Save* untuk mengkonfirmasi ketersediaan handle pilihan Anda.
+* Buka aplikasi atau web klien [bsky.app](https://bsky.app)
+* Ketuk ikon hamburger pada samping kiri (ponsel) atau sidebar (web)
+* Pilih menu [Settings](https://bsky.app/settings)
+* Gulir ke bawah dan ketuk *Change handle* di sub menu *Advanced*
+
+![](https://blueskyweb.xyz/images/blogposts/advanced-settings.jpg){:width="50%"}
+
+* Masukkan handle baru Anda (misalnya: **@nama.bsky.social**)
+
+![](https://blueskyweb.xyz/images/blogposts/change-my-handle.jpg){:width="50%"}
+
+* Pilih *Save* untuk mengkonfirmasi ketersediaan handle pilihan Anda.
 
 Perubahan ini akan disimpan jika handle pilihan Anda masih tersedia atau belum digunakan orang lain. Jika tidak, Anda akan diberitahu bahwa handle sudah digunakan, dan Anda diminta untuk mencoba yang lain.
 
-### Daftar Rekomendasi Domain
+{: .penting }
+Jika Anda mengubah handle Bluesky bawaan (**.bsky.social*) menjadi domain, nama pengguna lama Anda akan tersedia untuk digunakan oleh orang lain. Namun, semua mention dan tag dengan handle lama akan tetap mengarah ke akun Anda.
+
+## Mengganti Handle Dengan Domain Sendiri
+
+Untuk mengganti handle dengan domain sendiri atau menggunakan domain dari [daftar rekomendasi](#daftar-rekomendasi-domain), ketuk pada *I have my own domain*, maka akan muncul seperti di bawah ini:
+
+![](https://blueskyweb.xyz/images/blogposts/domain-txt-record.jpg){:width="50%"}
+
+Kotak dialog di atas berisi informasi tambahan yang perlu Anda tambahkan ke registrar tempat Anda membeli domain.
+
+Langkah-langkah spesifik ini bisa berbeda bergantung pada reseller/perusahaan domain yang Anda gunakan. Tambahkan TXT record ke domain Anda, biasanya berada di menu manajemen DNS. Isikan informasi akun Bluesky Anda sesuai kotak dialog sebelumnya.
+
+Nomor DID seperti `did:plc:7opjnfmb6gtbgjrsr3777ujx` bersifat publik dan bukan merupakan informasi sensitif (Baca lebih lanjut tentang DID [di sini]({% link atproto/pds-bgs-appview.md %})).
+
+```
+Set the domain: _atproto
+Set the type: TXT
+Set the value: did=did:plc:[your value here]
+```
+
+Lihat pada contoh ilustrasi berikut:
+
+<a href="https://www.youtube.com/embed/MGpJjq186bc"><img src="https://blueskyweb.xyz/images/domains.gif" alt=""></a>
+
+## Daftar Rekomendasi Domain
 
 Berikut ini adalah daftar layanan di mana Anda dapat membuat nama handle Anda sendiri untuk Bluesky dengan domain khusus.
 
@@ -90,10 +121,3 @@ Perubahan terakhir: `15 Desember 2023`
 | `*.github.io` | http | ✅ | multiple | Github | [web](https://github.com) |  |
 | `*.deno.dev` | http | ✅ | multiple | Deno Land Inc. | [web](https://deno.com/deploy) |  |
 | `*.messwithdns.com` | dns | ✅ | none | wizard zines | [web](http://messwithdns.com/) | only temporary, suitable for testing |
-
-### Cara Memasang Domain dari Skyna.me
-
-{: .catatan }
-Bantu kami untuk melengkapi halaman ini... 🥺
-
----

@@ -5,6 +5,8 @@ theme: just-the-docs
 # color_scheme: dark
 url: https://bsky.oops.wtf
 repository: oops-wtf/bsky-docs # for github-metadata
+locale: id_ID
+image: /assets/atp.jpg
 
 aux_links:
   📝: /roadmap

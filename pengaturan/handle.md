@@ -5,7 +5,7 @@ layout: default
 nav_order: 2
 parent: Pengaturan dan Fitur
 permalink: /domain
-last_modified_date: 2023-12-17 14:36
+last_modified_date: 2023-12-20 14:04
 ---
 
 # Bluesky (*username*) Handle
@@ -97,7 +97,7 @@ Berikut ini adalah daftar layanan di mana Anda dapat membuat nama handle Anda se
 {: .catatan }
 Kirim permintaan di [Github kami](https://github.com/oops-wtf/bsky-docs/tree/main/pengaturan/handle.md) untuk menambahkan layanan Anda!
 
-Perubahan terakhir: `15 Desember 2023`
+Perubahan terakhir: `20 Desember 2023`
 
 #### Domain dengan Dukungan Resmi
 {: .no_toc }
@@ -105,6 +105,7 @@ Perubahan terakhir: `15 Desember 2023`
 | Handles   | Type  | PDS?  | Open? | Free? | Auth  | Maintainer    | Links |
 |---        |---    |---    |---    |---    |---    |---            |---    |
 | `*.bsky.social` | http | ✅ | ❌ | ✅ | password | [Bluesky PBLLC](https://bsky.app/profile/did:plc:z72i7hdynmk6r22z27h6tvur) | [bsky.app](https://bsky.app/)<br>[github](https://github.com/bluesky-social) |
+| `*.bsky.to`| dns | - | ✅ | ✅ | none | [@andrew.bsky.to](https://bsky.app/profile/andrew.bsky.to) | [bsky.to](https://bsky.to)
 | `*.tired.io`<br>`*.bsky.cool`<br>`*.bsky.fish`<br>`*.bsky.lgbt`<br>`*.bsky.finance`<br>`*.vibes.cool`<br>`*.excuseme.wtf`<br>`*.bluesky.zip`<br>`*.skeets.online` | dns | - | ✅ | ✅ | password | [@darn.fish](https://bsky.app/profile/did:plc:7qw3ldjppmwmtjoak3egctdb) | [skyna.me](https://skyna.me/)<br>[github](https://github.com/darnfish/skyname) |
 | `*.is-extremely.gay`<br>`*.the-gay.cat`<br>`*.woke.cat`<br>`*.lesbian.cat` | dns | - | ✅ | ✅ | none | [@domi.zip](https://bsky.app/profile/did:plc:7bwr7mioqql34n2mrqwqypbz) | [handles.domi.zip](https://handles.domi.zip/)<br>[github](https://github.com/SlickDomique/open-handles) |
 | `*.bsky.london` | dns | - | ✅ | ✅ | none | [@pfrazees.monster](https://bsky.app/profile/did:plc:p2cp5gopk7mgjegy6wadk3ep) | [bsky.london](https://bsky.london/) |

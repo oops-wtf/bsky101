@@ -7,7 +7,7 @@ has_toc: true
 parent: Feed dan Algoritma
 grand_parent: Pengaturan dan Fitur
 permalink: /rekomendasi-feed
-last_modified_date: 2023-12-16 10:40
+last_modified_date: 2023-12-21 15:37
 ---
 
 {: .catatan }
@@ -35,10 +35,14 @@ Bantu kami untuk melengkapi laman ini... 🥺
 * [Home+] : Menampikan kiriman di jaringan Bluesky seperti feed Discover, tetapi menggunakan pendekatan algoritma Twitter (*for you*).
 * [Catch Up] : Menampilkan kiriman populer dalam 24 jam terakhir.
 * [All-Time Bangers] : Menampilan kiriman yang paling banyak di sukai di jaringan Bluesky sejak 26 Mei 2023.
+* [PositiviFeed](https://bsky.app/profile/did:plc:q6gjnaw2blty4crticxkmujt/feed/positivifeed) : Berisi postingan dengan analisis sentimen positif dari seluruh jaringan.
 
 ## Feed Klaster
 * [Cakrawala Indonesia] : Cakrawala berisi kiriman dari semua pengguna dalam klaster bahasa Indonesia.
-* [WIB] : Seperti Cakrawala tetapi menampilkan percakapan antar pengguna (*replies*).
+* [WIB] : Seperti Cakrawala tetapi menampilkan percakapan (replies) antar pengguna (*replies*).
+* [Malaysian Cluster](https://bsky.app/profile/did:plc:7opjnfmb6gtbgjrsr3777ujx/feed/aaahneieskede) : Feed dari semua kiriman dalam klaster bahasa Malaysia.
+* [Korean Cluster](https://bsky.app/profile/did:plc:q6gjnaw2blty4crticxkmujt/feed/cl-korean)
+* [Japanese Cluster](https://bsky.app/profile/did:plc:q6gjnaw2blty4crticxkmujt/feed/cl-japanese)
 
 ## Feed Komunitas
 * [ArtIDN]

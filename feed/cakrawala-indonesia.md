@@ -9,10 +9,12 @@ permalink: /cakrawala
 last_modified_date: 2023-12-16 10:45
 ---
 
-**[Cakrawala Indonesia]** menampilkan kiriman dari semua pengguna dalam klaster bahasa Indonesia.
+**[Cakrawala Indonesia]** adalah salah satu contoh penggunaan feed untuk menampilkan kiriman dari semua pengguna dalam klaster bahasa Indonesia.
 {: .fs-6 .fw-300 }
 
-Feed ini akan menampilkan kiriman sesuai [tag bahasa]({% link pengaturan/bahasa.md %}) terpilih (Indonesian) atau dengan label `id-ID` dan `in-ID` pada "*post language*". Sebagian kiriman mungkin hilang jika pengaturan "*content languages*" Anda bukan dalam bahasa Indonesia.
+Feed ini akan menampilkan kiriman sesuai [tag bahasa]({% link pengaturan/bahasa.md %}) terpilih (Indonesian) atau dengan label `id-ID` dan `in-ID` pada "*post language*". Post Language adalah pengaturan bahasa yang Anda gunakan setiap kali mengirimkan postingan. Untuk mengubah label bahasa ini, gunakan icon terjemahan terletak pada kotak dialog saat Anda mengetik postingan baru.
+
+Perlu diperhatikan bahwa sebagian kiriman feed dalam klaster bahasa tertentu mungkin hilang jika pengaturan "*content languages*" Anda bukan dalam bahasa Indonesia. Cek pengaturan Settings > [Language Setting](https://bsky.app/settings/language) kemudian lihat pada Content Languages, hidupkan pengaturan Bahasa Indonesia atau multi-bahasa, misalnya Indonesian + English.
 
 Agar kiriman tidak muncul dalam feed, gunakan hastag `#nofeed`, `!nofeed`, `-nofeed`, `~nofeed`, atau `#private`,  `#privat`.
 

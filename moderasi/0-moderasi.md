@@ -33,11 +33,11 @@ Daftar moderasi (*modlist*) di Bluesky berlaku seperti AdBlocker di mana Anda bi
 
 Daftar bisu di bawah ini dapat digunakan secara maksimal untuk memoderasi akun yang muncul pada feed Cakrawala Indonesia, WIB, atau feed klaster berbahasa Indonesia lainnya.
 
-* [SFW-ify Your Feed] untuk menyaring akun NSFW
-* [Crypto Quarantine] jika Anda ingin memoderasi akun kripto
-* [Furries ID] jika Anda ingin memoderasi akun furries NSFW
-* [Akun Jualan 🛒] untuk membatasi akun jualan
-* [Botsky] untuk menghilangkan sebagian bot terdaftar dari feed
+* [SFW-ify Your Feed] untuk menghilangkan akun NSFW dari Cakrawala Indonesia
+* [Crypto Quarantine] jika Anda ingin memoderasi akun terkait cryptocurrency, NFT, dsb.
+* [Furries ID] jika Anda ingin memoderasi akun NSFW furries
+* [Akun Jualan 🛒] untuk membatasi akun jualan yang muncul di feed
+* [Botsky] untuk menghilangkan sebagian bot bluesky
 
 *Modlist* yang berlaku secara global, berdasarkan daftar yang dibuat akun [@skywatch.bsky.social](https://bsky.app/profile/skywatch.bsky.social):
 

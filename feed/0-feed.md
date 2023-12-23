@@ -14,7 +14,7 @@ Bantu kami untuk melengkapi laman ini... 🥺
 
 # Feed dan Algoritma
 
-Bluesky menggunakan sistem feed yand bisa dikustomisasi sebagai pengganti *skyline* bawaan.
+Bluesky menggunakan sistem feed yand bisa dikustomisasi sebagai pengganti *skyline* (timeline) bawaan.
 {: .fs-6 .fw-300 }
 
 Sebagai pengguna, Anda diberikan beberapa feed bawaan seperti feed *Following*, *Discover*, atau *What's Hot* untuk mulai menggunakan Bluesky, tetapi Anda bisa dengan mudah menukarnya dengan salah satu dari sekian banyak feed yang telah dibuat oleh orang lain.

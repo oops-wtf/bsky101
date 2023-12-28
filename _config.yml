@@ -8,10 +8,10 @@ repository: oops-wtf/bsky-docs # for github-metadata
 locale: id_ID
 image: /assets/atp.jpg
 
-aux_links:
-  📝: /roadmap
-  ❓: /faq
-  ✏: /riwayat
+# aux_links:
+#  📝: /roadmap
+#  ❓: /faq
+#  ✏: /riwayat
 
 #logo: "assets/logo.jpg"
 #favicon_ico: "assets/ico.ico"
@@ -50,7 +50,7 @@ gh_edit_view_mode: "tree" # "tree" or "edit" if you want the user to jump into t
 
 callouts:
   peringatan:
-    title: Peringatan
+    title: Peringatan!
     color: red
   sorotan:
     title: Sorotan

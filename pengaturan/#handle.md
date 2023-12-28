@@ -1,12 +1,4 @@
----
-title: Bluesky Handle
-description: Meskipun berbeda dalam penyebutannya, handle di Bluesky sama dengan username di media sosial lain.
-layout: default
-nav_order: 2
-parent: Pengaturan dan Fitur
-permalink: /domain
-last_modified_date: 2023-12-20 14:04
----
+
 
 # Bluesky (*username*) Handle
 {: .no_toc }
@@ -122,3 +114,7 @@ Perubahan terakhir: `20 Desember 2023`
 | `*.github.io` | http | ✅ | multiple | Github | [github.com](https://github.com) | Github Pages |
 | `*.deno.dev` | http | ✅ | multiple | Deno Land Inc. | [deno.dev](https://deno.com/deploy) |  |
 | `*.messwithdns.com` | dns | ✅ | none | wizard zines | [messwithdns.com](http://messwithdns.com/) | only temporary, suitable for testing |
+
+## Permasalahan Umum
+
+0. *invalid handle* : bisa terjadi karena terdapat ketidaksesuaian data antara  

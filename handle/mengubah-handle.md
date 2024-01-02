@@ -21,11 +21,11 @@ Namun mengubah handle Bluesky tidak sesulit mencari cara mendapatkan kode undang
 * Pilih menu [Settings](https://bsky.app/settings)
 * Gulir ke bawah dan ketuk *Change handle* di sub menu *Advanced*
 
-![](https://blueskyweb.xyz/images/blogposts/advanced-settings.jpg){:width="50%"}
+    ![](https://blueskyweb.xyz/images/blogposts/advanced-settings.jpg){:width="50%"}
 
 * Masukkan handle baru Anda (misalnya: **@nama.bsky.social**)
 
-![](https://blueskyweb.xyz/images/blogposts/change-my-handle.jpg){:width="50%"}
+    ![](https://blueskyweb.xyz/images/blogposts/change-my-handle.jpg){:width="50%"}
 
 * Pilih *Save* untuk mengkonfirmasi ketersediaan handle pilihan Anda.
 

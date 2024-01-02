@@ -5,7 +5,7 @@ layout: default
 nav_order: 6
 has_toc: true
 permalink: /aplikasi
-last_modified_date: 2023-12-28 19:09
+last_modified_date: 2024-01-02 11:51
 ---
 
 Bluesky adalah platform microblogging sumber terbuka yang didukung oleh ATProto. Protokol ini memungkinkan pembuatan alat dan aplikasi pihak ketiga, yang terdaftar di sini untuk referensi.
@@ -25,6 +25,7 @@ Jangan pernah menggunakan kata sandi utama Anda. Selalu gunakan [App Passwords](
 | Skyfeed | web, aplikasi | [skyfeed.com](skyfeed.com) | [@skyfeed.app](https://bsky.app/profile/skyfeed.app)
 | Tokimeki | web | [tokimeki.blue](https://tokimeki.blue) | [@tokimeki.blue](https://bsky.app/profile/tokimeki.blue)
 | vSky | web | [vsky.social](https://www.vsky.social/) | [@vsky.social](https://bsky.app/profile/vsky.social)
+| Skeetdeck | web | [skeetdeck.pages.dev](https://skeetdeck.pages.dev/) | [@mary.my.id](https://bsky.app/profile/mary.my.id)
 
 ## Alat dan Statistik
 

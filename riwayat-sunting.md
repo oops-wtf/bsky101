@@ -11,6 +11,15 @@ permalink: /riwayat
 {: .sorotan }
 Perubahan pada sebagian atau keseluruhan isi situs Bluesky 101 didokumentasikan dalam laman ini.
 
+## v0.1.4
+29 Desember 2023
+* Memindahkan laman tentang Domain Handle ke folder handle
+* Menambahkan tulisan dan laman baru untuk App Password dan Firehose
+* Menambahkan tulisan baru di Cakrawala Indonesia
+* Menambahkan laman baru tentang Moderasi: penyaringan, pelabelan, dan modlists
+* Menambahkan tulisan baru dalam Kode Undangan
+* Menambahkan cara membuat feed dengan Blueskyfeeds.com
+
 ## v0.1.3
 16 Desember 2023
 * Menambahkan tulisan baru di Feed

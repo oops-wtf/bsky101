@@ -8,17 +8,16 @@ permalink: /panduan
 last_modified_date: 2023-12-28 13:51
 ---
 
-# Panduan Singkat Bluesky
 {: .no_toc }
 Laman ini berisi panduan singkat dan pandangan sekilas tentang isi dari keseluruhan situs **Bluesky 101** sebagai pedoman bagi pengguna baru 🙌
 {: .fs-6 .fw-300 }
 
+Mungkin Anda akan bertanya-tanya, "*Mengapa username di Bluesky panjang?*", "*Mengapa timeline-nya sepi? Bagaimana cara mencari mutual di Bluesky?*" atau "*Mengapa Bluesky minim fitur dibanding aplikasi lain?*", dsb.
+
+Panduan ini akan mencoba menjawab sebagian besar dari banyak pertanyaan yang muncul terkait Bluesky dan ATProto. Setiap tautan dalam laman ini akan mengarahkan Anda pada laman baru berisi informasi lengkap, rincian fitur, atau panduan lebih lanjut.
+
 {: .catatan }
-Panduan akan diperbarui secara berkala dengan informasi terbaru seiring perkembangan Bluesky dan ATProto.
-
-Setelah berhasil mendaftar, mungkin Anda akan bertanya-tanya, "*Mengapa username di Bluesky panjang?*", "*Mengapa timeline-nya sepi? Bagaimana cara mencari mutual di Bluesky?*", "*Tampilannya mirip Twitter tapi bagaimana cara menggunakannya?*" atau "*Mengapa Bluesky minim fitur dibanding aplikasi lain?*"
-
-Panduan ini akan mencoba menjawab sebagian besar dari banyak pertanyaan yang muncul terkait Bluesky dan ATProto, dimulai dengan hal-hal mendasar.
+Panduan ini akan diperbarui secara berkala dengan informasi terbaru seiring perkembangan Bluesky dan ATProto.
 
 <details open markdown="block">
   <summary>
@@ -31,12 +30,12 @@ Panduan ini akan mencoba menjawab sebagian besar dari banyak pertanyaan yang mun
 
 ---
 
-## Bluesky 101: Panduan Dasar
+## Bagian 1 - Panduan Dasar
 Setelah berhasil mendaftar, berikut beberapa hal yang perlu Anda ketahui sebagai dasar pengetahuan Anda tentang Bluesky:
 
 0. Bluesky adalah salah satu sosial media sumber terbuka dan [terdesentralisasi]({% link atproto/desentralisasi.md %}) seperti [Mastodon]{:target="_blank"}. Jika Mastodon menggunakan ActivityPub, Bluesky menggunakan protokol yang berbeda yaitu [AT Protocol]({% link atproto/0-atproto.md %}). (Lihat perbandingannya [di sini]({% link atproto/pros-cons.md %}))
 0. Anda dapat mengakses [bsky.app]{:target="_blank"} dengan browser atau melalui berbagai pilihan [aplikasi pihak ketiga]({% link panduan/aplikasi.md %}#aplikasi-klien) dari perangkat ponsel.
-0. Bluesky memiliki batas 300 karakter untuk satu kiriman teks, 1000 karakter untuk alt (*caption*) teks, 4 gambar dalam 1 kiriman dengan batas ukuran gambar sebesar 1MB.
+0. Bluesky memiliki batas 300 karakter untuk satu kiriman teks, 1000 karakter untuk alt (*caption*) teks, 4 gambar dalam 1 kiriman dengan batas ukuran gambar masing-masing sebesar 1MB.
 0. Lakukan perubahan pada nama, foto profil, bio, *header/banner*, dan [*handle*]({% link handle/0-handle.md %}). Foto profil dan *header* untuk saat ini hanya mendukung format `.jpg` dan `.png` (*non-transparent*), dengan aspect ratio 1:1 (*square*) dan 3:1 untuk *header*.
 0. Handle (username) Bluesky akan terlihat panjang jika dibandingkan dengan Twitter (mis. **@nama.bsky.social**). Username ini bukan hanya berfungsi sebagai penanda, tetapi juga sebagai identitas pengganti "[centang biru]({% link handle/tentang.md %})".
 0. Bluesky memungkinkan Anda untuk menggunakan [custom domain]({% link handle/mengubah-handle.md %}) sebagai handle seperti pada ruang redaksi [**@nytimes.com**](https://bsky.app/profile/nytimes.com) dan [**@npr.org**](https://bsky.app/profile/npr.org). Domain bisa didapat secara gratis maupun berbayar. (Lihat daftar rekomendasi subdomain gratis [di sini]({% link handle/rekomendasi-domain.md %}#daftar-rekomendasi-domain))
@@ -48,7 +47,7 @@ Setelah berhasil mendaftar, berikut beberapa hal yang perlu Anda ketahui sebagai
 0. Lihat [daftar pertanyaan umum]({% link panduan/FAQ.md %}) yang sering diajukan terkait Bluesky dan ATProto.
 0. *Tips tambahan* : Jadikan feed cakrawala hanya sebagai tempat mencari teman (mutualan). Selanjutnya maksimalkan fungsi [feed Following]({% link feed/rekomendasi-feed.md %}#feed-algoritmik) sebagai feed utama untuk membangun sirkel pertemanan Anda di Bluesky. Setiap orang berhak menentukan sirkelnya masing-masing!
 
-## Bluesky 101: Informasi Lanjutan
+## Bagian 2 - Informasi Lanjutan
 Apabila Anda sudah selesai membaca dan memahami panduan dasar di atas, lanjutkan membaca beberapa informasi singkat di bawah ini:
 
 0. **Semua informasi, data, aktivitas, dan kiriman di Bluesky bersifat terbuka dan publik!** Jangan memposting apa pun yang perlu dirahasiakan atau membagikan secara berlebihan.
@@ -60,7 +59,7 @@ Apabila Anda sudah selesai membaca dan memahami panduan dasar di atas, lanjutkan
 0. Semua pengguna Bluesky memiliki kesempatan yang sama, [tidak ada algoritma khusus]({% link feed/0-feed.md %}) untuk mendongkrak *engagement* di Bluesky. Hanya feed yang menentukan bagaimana postingan akan tampil dan ditampilkan dalam *skyline*. Anda bisa berinteraksi secara organik dengan pengguna lain.
 0. **Penting**: Menambahkan deskripsi gambar atau *alternative text* (*ALT text*) dalam sebuah kiriman akan membantu orang-orang yang menggunakan *screen reader* untuk memahami konteks sebuah kiriman atau secara umum membantu orang lain memahami detail pada gambar yang Anda posting. Baca artikel dari *Harvard's Digital Accessbility* tentang [cara menulis ALT text](https://accessibility.huit.harvard.edu/describe-content-images) yang baik.
 
-## Privasi dan Keamanan 🔒
+## Bagian 3 - Privasi dan Keamanan 🔒
 Informasi tambahan terkait privasi dan keamanan dalam menggunakan Bluesky
 
 0. **Tidak ada pengaturan *private account* di Bluesky**, artinya semua postingan dan informasi akun bersifat terbuka bagi pengguna lain dalam jaringan. Anda hanya bisa membatasi kiriman agar tidak bisa dibalas oleh akun tertentu. (Lihat pada bagian [roadmap]({% link panduan/roadmap.md %}) untuk perkembangan terbaru)

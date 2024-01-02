@@ -5,7 +5,7 @@ nav_order: 1
 description: "Bluesky 101 berisi informasi, panduan tertulis, dan semua yang berkaitan dengan Bluesky"
 has_toc: true
 permalink: /
-last_modified_date: 2023-12-15 22:04
+last_modified_date: 2024-01-01 22:04
 ---
 
 # Selamat datang! 👋
@@ -14,7 +14,7 @@ last_modified_date: 2023-12-15 22:04
 **Bluesky 101** berisi informasi, panduan tertulis, dan semua yang berkaitan dengan Bluesky, PBLLC (AT Protocol) dalam bahasa Indonesia.
 {: .fs-6 .fw-300 }
 
----
+![](assets/social-card-default.jpg)
 
 Situs ini dibuat atas inisiasi [@oops.wtf](https://bsky.app/profile/oops.wtf) untuk kemudian diserahkan kepada komunitas Bluesky Indonesia agar dapat dikelola bersama.
 

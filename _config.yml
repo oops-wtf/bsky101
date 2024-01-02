@@ -6,7 +6,7 @@ theme: just-the-docs
 url: https://bsky.oops.wtf
 repository: oops-wtf/bsky-docs # for github-metadata
 locale: id_ID
-image: /assets/atp.jpg
+image: /assets/social-card-default.jpg
 
 # aux_links:
 #  📝: /roadmap

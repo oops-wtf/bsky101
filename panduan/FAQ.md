@@ -1,14 +1,14 @@
 ---
 title: Pertanyaan yang Sering Diajukan
 layout: default
-nav_order: 10
+nav_order: 11
 description: "Laman ini berisi panduan dan semua yang berkaitan dengan Bluesky dalam bahasa Indonesia."
 has_toc: true
 permalink: /faq
 last_modified_date: 2024-01-02 11:59
 ---
 
-# Daftar Pertanyaan yang Sering Diajukan
+## Daftar Pertanyaan yang Sering Diajukan
 
 {: .catatan }
 Bantu kami untuk melengkapi laman ini... 🥺

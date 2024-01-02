@@ -1,5 +1,5 @@
 ---
-title: Tentang Domain
+title: Tentang Domain Handle
 description:
 layout: default
 nav_order: 1
@@ -10,14 +10,14 @@ permalink: /tentang-domain
 last_modified_date: 2023-12-28 14:02
 ---
 
-## Tentang Domain
+# Tentang Domain
 Setiap perangkat yang terhubung di internet pada dasarnya memiliki alamat IP unik seperti `172.217.6.196`. Meskipun demikan, Anda tentu akan lebih mudah untuk mengingat `google.com` sebagai nama domain dibanding alamat IP-nya.
 
 Domain adalah nama unik untuk mengidentifikasi situs web di internet. Sebagai contoh, domain Bluesky adalah [bsky.app](https://bsky.app) atau situs berita Kompas.com dengan domain [kompas.com](https://kompas.com). Domain dapat dibagi lagi menjadi subdomain. Misalnya, jika domain Anda adalah `contoh.com` tetapi Anda memiliki blog yang di-host di `blog.contoh.com`, maka *blog* adalah subdomain.
 
 Secara teknis, AT Protocol -lah yang memungkinkan Anda untuk menggunakan domain sebagai handle. Sedangkan Bluesky (app) adalah aplikasi klien yang dibuat Bluesky (team) di atas protokol ini, di mana Anda dapat menggunakan domain ***.bluesky.social** sebagai handle.
 
-### Pengganti Centang Biru
+## Pengganti Centang Biru
 {: .no_toc }
 Sama halnya dengan username di Mastodon, handle di Bluesky mungkin akan terlihat lebih panjang jika dibandingkan dengan Twitter.
 

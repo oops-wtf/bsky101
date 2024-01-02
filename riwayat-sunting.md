@@ -2,7 +2,7 @@
 title: Riwayat Penyuntingan
 description: Perubahan pada sebagian atau keseluruhan isi situs Bluesky 101 didokumentasikan dalam laman ini.
 layout: default
-nav_order: 11
+nav_order: 12
 permalink: /riwayat
 ---
 
@@ -20,6 +20,7 @@ Perubahan pada sebagian atau keseluruhan isi situs Bluesky 101 didokumentasikan 
 * Menambahkan tulisan baru dalam Kode Undangan
 * Menambahkan cara membuat feed dengan Blueskyfeeds.com
 * Menambahkan rekomendasi domain baru
+* Menambahkan laman baru daftar glosarium
 
 ## v0.1.3
 16 Desember 2023

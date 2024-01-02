@@ -19,6 +19,7 @@ Perubahan pada sebagian atau keseluruhan isi situs Bluesky 101 didokumentasikan 
 * Menambahkan laman baru tentang Moderasi: penyaringan, pelabelan, dan modlists
 * Menambahkan tulisan baru dalam Kode Undangan
 * Menambahkan cara membuat feed dengan Blueskyfeeds.com
+* Menambahkan rekomendasi domain baru
 
 ## v0.1.3
 16 Desember 2023

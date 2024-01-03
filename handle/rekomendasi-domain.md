@@ -1,6 +1,6 @@
 ---
 title: Daftar Rekomendasi Domain
-description:
+description: Daftar rekomendasi layanan dan aplikasi domain handle gratis untuk Bluesky.
 layout: default
 nav_order: 3
 parent: Bluesky Handle

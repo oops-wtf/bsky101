@@ -8,8 +8,7 @@ permalink: /glosarium
 last_modified_date: 2024-01-02 20:35
 ---
 
-
-## Glosarium
+# Glosarium
 
 Glosarium adalah urutan (A-Z) daftar istilah Bluesky secara khusus dan istilah dalam dunia teknologi secara umum, disertai dengan definisinya masing-masing.
 

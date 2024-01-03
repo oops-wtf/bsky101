@@ -73,3 +73,6 @@ callouts:
 #  profile: false
   # ignore:
   #   envs: all
+
+plugins:
+  - "jekyll-github-metadata"

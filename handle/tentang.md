@@ -10,7 +10,7 @@ permalink: /tentang-domain
 last_modified_date: 2023-12-28 14:02
 ---
 
-# Tentang Domain
+## Tentang Domain
 Setiap perangkat yang terhubung di internet pada dasarnya memiliki alamat IP unik seperti `172.217.6.196`. Meskipun demikan, Anda tentu akan lebih mudah untuk mengingat `google.com` sebagai nama domain dibanding alamat IP-nya.
 
 Domain adalah nama unik untuk mengidentifikasi situs web di internet. Sebagai contoh, domain Bluesky adalah [bsky.app](https://bsky.app) atau situs berita Kompas.com dengan domain [kompas.com](https://kompas.com). Domain dapat dibagi lagi menjadi subdomain. Misalnya, jika domain Anda adalah `contoh.com` tetapi Anda memiliki blog yang di-host di `blog.contoh.com`, maka *blog* adalah subdomain.

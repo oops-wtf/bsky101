@@ -52,7 +52,6 @@ Anda bisa membuat daftar moderasi versi Anda sendiri baik secara manual maupun s
 
 * [blockenheimer.click](https://blockenheimer.click) oleh [@blockenheimer.click](https://bsky.app/profile/blockenheimer.click)
 
-
 [SFW-ify Your Feed]: https://bsky.app/profile/did:plc:7opjnfmb6gtbgjrsr3777ujx/lists/3kdsmtteces2z
 [Crypto Quarantine]: https://bsky.app/profile/did:plc:7opjnfmb6gtbgjrsr3777ujx/lists/3kgd2vb5vue2z
 [Furries ID]: https://bsky.app/profile/did:plc:7opjnfmb6gtbgjrsr3777ujx/lists/3k6ubeeffyb27

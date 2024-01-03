@@ -89,6 +89,10 @@ Bantu kami untuk melengkapi laman ini... 🥺
 [Movie's 🎬](https://bsky.app/profile/did:plc:qtldbingyhs4bfyaxdhatmzw/feed/aaahj2z575ul6)
 : Feed tentang perfilman dalam bahasa Indonesia.
 
+## Feed Untuk Fitur Tambahan
+[📌 My Pin](https://bsky.app/profile/did:plc:q6gjnaw2blty4crticxkmujt/feed/my-pins)
+: Feed khusus sebagai pengganti fitur markah (bookmark). Berikan tanda atau balas dengan  📌 (pin) emoji pada setiap kiriman yang ingin Anda simpan.
+
 [Mutuals]: https://bsky.app/profile/did:plc:tenurhgjptubkk5zf5qhi3og/feed/mutuals
 [Followers]: https://bsky.app/profile/did:plc:q6gjnaw2blty4crticxkmujt/feed/my-followers
 [Home+]: https://bsky.app/profile/did:plc:2wqomm3tjqbgktbrfwgvrw34/feed/home-plus

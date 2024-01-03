@@ -30,7 +30,7 @@ Jangan pernah menggunakan kata sandi utama Anda. Selalu gunakan [App Passwords](
 ## Alat dan Statistik
 
 ### API
-* [Bluesky Social Wrapper](https://blue.amazingca.dev/) : Interactive Bluesky API Wrapper untuk menguji kueri
+* [Bluesky Social Wrapper](https://blue.amazingca.dev/) : Interactive Bluesky API Wrapper untuk uji coba kueri
 * [Sky Bridge](https://skybridge.fly.dev/) : Mastodon Instance Proxy memungkinkan untuk menggunakan aplikasi Mastodon (saat ini hanya mendukung aplikasi Ivory) terhubung ke jaringan ATProto.
 
 ### Alat Moderasi

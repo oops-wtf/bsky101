@@ -7,7 +7,7 @@ has_toc: true
 parent: Feed dan Algoritma
 grand_parent: Pengaturan dan Fitur
 permalink: /rekomendasi-feed
-last_modified_date: 2023-12-29 00:19
+last_modified_date: 2024-01-09 22:15
 ---
 
 {: .catatan }
@@ -60,6 +60,9 @@ Bantu kami untuk melengkapi laman ini... 🥺
 [WIB]
 : Seperti Cakrawala tetapi menampilkan percakapan (replies) antar pengguna (*replies*).
 
+[Indo Bangers](https://bsky.app/profile/did:plc:7opjnfmb6gtbgjrsr3777ujx/feed/aaaniozhx2iem)
+: Feed algoritmik berisi kiriman yang sedang populer di Cakrawala Indonesia.
+
 [Malaysian Cluster](https://bsky.app/profile/did:plc:7opjnfmb6gtbgjrsr3777ujx/feed/aaahneieskede)
 : Feed dari semua kiriman dalam klaster bahasa Malaysia.
 
@@ -73,7 +76,10 @@ Bantu kami untuk melengkapi laman ini... 🥺
 [Roleplayer Area]
 : Feed khusus akun roleplayer Indonesia.
 
-## Hobi, Berita, dan Olahraga
+[JKT48](https://bsky.app/profile/did:plc:3773uwwogo22cupiyxeuewij/feed/aaakpwtzeynl4)
+: Feed seputar JKT48
+
+## Hobi, Berita, Olahraga dan Teknologi
 [Shuttle Hustle 🏸]
 : Feed ini dibuat khusus untuk para pecinta bulutangkis dan membagikan berita terbaru tentang bulutangkis.
 
@@ -82,6 +88,9 @@ Bantu kami untuk melengkapi laman ini... 🥺
 
 [📰 News](https://bsky.app/profile/did:plc:kkf4naxqmweop7dv4l2iqqf5/feed/verified-news)
 : Berisi kiriman dari akun redaksi berita yang sudah terverifikasi.
+
+[Idea Picker](https://bsky.app/profile/did:plc:7opjnfmb6gtbgjrsr3777ujx/feed/aaabwt26fpxeu)
+: Mengumpulkan semua ide dan strategi untuk startup, aplikasi/platform, dan fitur
 
 [Literasky 📚](https://bsky.app/profile/did:plc:qikup4ob5wcx63x7tokmqzl6/feed/aaajufdkuzrwc)
 : Literasky menjadi wadah bagi segenap penikmat literasi yang berminat membangun budaya literasi di Bluesky
@@ -112,9 +121,9 @@ Bantu kami untuk melengkapi laman ini... 🥺
 
 # Cara Mencari dan Membagikan Feed
 Terdapat beberapa cara yang dapat dilakukan untuk menemukan sebuah feed:
-0. Membuka profil akun pengguna dan melihat daftar feed pada tab Feeds
-0. Membuka menu Feeds pada bagian Discover Feeds, yang berisi 50 feed teratas berdasarkan jumlah like
-0. Mencari feed dengan kata kunci di kotak pencarian atau melalui layanan seperti [Goodfeeds](https://goodfeeds.co/)
+0. Membuka profil akun seseorang dan melihat daftar feed pada tab Feeds.
+0. Membuka menu [Feeds](https://bsky.app/feeds) pada web/app client. Pada bagian Discover new feeds Anda akan melihat daftar feed teratas berdasarkan jumlah likes.
+0. Mencari feed dengan kata kunci di kotak pencarian atau melalui layanan seperti [Goodfeeds](https://goodfeeds.co/).
 0. Anda juga dapat menemukan feed yang disematkan dalam sebuah postingan yang dikirim oleh pengguna lain.
-0. Untuk membagikan feed, setiap feed memiliki tautan seperti `https://bsky.app/profile/did:plc:ABC123/feed/XYZ789`. Untuk mendapatkan tautan tersebut, buka feed secara langsung, salin tautan dari adress bar atau di ponsel klik "Share Link" pada dropdown menu.\
-0. Saat membagikan tautan, pastikan untuk mengklik "Add link card", sehingga muncul sebaris *link card* yang menampilkan nama feed dan jumlah likes-nya.
+0. Setiap feed memiliki tautan seperti `https://bsky.app/profile/did:plc:ABC123/feed/XYZ789`. Dapatkan tautan tersebut di url setiap feed dengan cara membuka feed yang ingin dibagikan, salin tautan dari adress bar atau melalui "Share Link" pada dropdown menu.
+0. Saat membagikan tautan, pastikan untuk mengetuk "Add link card", sehingga muncul sebaris informasi nama feed dan jumlah likes-nya untuk memastikan tidak ada kesalahan kirim.

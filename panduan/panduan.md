@@ -5,7 +5,7 @@ layout: default
 nav_order: 2
 has_toc: true
 permalink: /panduan
-last_modified_date: 2023-12-28 13:51
+last_modified_date: 2024-01-09 22:13
 ---
 
 {: .no_toc }
@@ -30,24 +30,25 @@ Panduan ini akan diperbarui secara berkala dengan informasi terbaru seiring perk
 
 ---
 
-## Bagian 1 - Panduan Dasar
+## Bagian 1: Panduan Dasar
 Setelah berhasil mendaftar, berikut beberapa hal yang perlu Anda ketahui sebagai dasar pengetahuan Anda tentang Bluesky:
 
-0. Bluesky adalah salah satu sosial media sumber terbuka dan [terdesentralisasi]({% link atproto/desentralisasi.md %}) seperti [Mastodon]{:target="_blank"}. Jika Mastodon menggunakan ActivityPub, Bluesky menggunakan protokol yang berbeda yaitu [AT Protocol]({% link atproto/0-atproto.md %}). (Lihat perbandingannya [di sini]({% link atproto/pros-cons.md %}))
-0. Anda dapat mengakses [bsky.app]{:target="_blank"} dengan browser atau melalui berbagai pilihan [aplikasi pihak ketiga]({% link panduan/aplikasi.md %}#aplikasi-klien) dari perangkat ponsel.
-0. Bluesky memiliki batas 300 karakter untuk satu kiriman teks, 1000 karakter untuk alt (*caption*) teks, 4 gambar dalam 1 kiriman dengan batas ukuran gambar masing-masing sebesar 1MB.
+0. Bluesky adalah sosial media sumber terbuka dan [terdesentralisasi]({% link atproto/desentralisasi.md %}) seperti [Mastodon]{:target="_blank"}. Jika Mastodon menggunakan ActivityPub, Bluesky menggunakan protokol yang berbeda yaitu [AT Protocol]({% link atproto/0-atproto.md %}). (Lihat perbandingannya [di sini]({% link atproto/pros-cons.md %}))
+0. Anda dapat mengakses laman [bsky.app]{:target="_blank"} dengan browser atau melalui berbagai pilihan [aplikasi pihak ketiga]({% link panduan/aplikasi.md %}#aplikasi-klien) dari perangkat ponsel.
+0. Bluesky memiliki batas 300 karakter untuk satu kiriman teks, 1000 karakter untuk ALT (*caption*) teks, 4 gambar kolase dalam 1 kiriman dengan batas ukuran gambar masing-masing sebesar 1MB. Batas ukuran ini juga berlaku untuk foto profil dan header banner.
 0. Lakukan perubahan pada nama, foto profil, bio, *header/banner*, dan [*handle*]({% link handle/0-handle.md %}). Foto profil dan *header* untuk saat ini hanya mendukung format `.jpg` dan `.png` (*non-transparent*), dengan aspect ratio 1:1 (*square*) dan 3:1 untuk *header*.
-0. Handle (username) Bluesky akan terlihat panjang jika dibandingkan dengan Twitter (mis. **@nama.bsky.social**). Username ini bukan hanya berfungsi sebagai penanda, tetapi juga sebagai identitas pengganti "[centang biru]({% link handle/tentang.md %})".
-0. Bluesky memungkinkan Anda untuk menggunakan [custom domain]({% link handle/mengubah-handle.md %}) sebagai handle seperti pada ruang redaksi [**@nytimes.com**](https://bsky.app/profile/nytimes.com) dan [**@npr.org**](https://bsky.app/profile/npr.org). Domain bisa didapat secara gratis maupun berbayar. (Lihat daftar rekomendasi subdomain gratis [di sini]({% link handle/rekomendasi-domain.md %}#daftar-rekomendasi-domain))
-0. Penting sebelum Anda melanjutkan lebih jauh, pastikan Anda membaca [panduan moderasi]({% link moderasi/0-moderasi.md %}) di situs ini. Selanjutnya buka pengaturan [Moderation](https://bsky.app/moderation){:target="_blank"} pada aplikasi atau klien, lanjutkan ke menu Content Filtering untuk menentukan jenis konten apa yang ingin ditampilkan atau dihilangkan dari feed atau *skyline*, misalnya seperti kiriman yang mengandung unsur pornografi, kekerasan, spam, atau akun dengan [label *impersonation*]({% link moderasi/0-moderasi.md %}#pelabelan).
+0. *Handle* (username) Bluesky akan terlihat panjang jika dibandingkan dengan Twitter (mis. **@nama.bsky.social**). Username ini bukan hanya berfungsi sebagai penanda saja, tetapi juga sebagai identitas pengganti "[centang biru]({% link handle/tentang.md %})".
+0. Bluesky juga memungkinkan Anda untuk menggunakan [custom domain]({% link handle/mengubah-handle.md %}) sebagai handle seperti pada ruang redaksi [**@nytimes.com**](https://bsky.app/profile/nytimes.com) dan [**@npr.org**](https://bsky.app/profile/npr.org). Domain bisa didapat secara gratis maupun berbayar. (Lihat daftar rekomendasi subdomain gratis [di sini]({% link handle/rekomendasi-domain.md %}#daftar-rekomendasi-domain))
+0. Penting sebelum Anda melanjutkan lebih jauh, pastikan Anda membaca [panduan moderasi]({% link moderasi/0-moderasi.md %}) di situs ini. Selanjutnya buka pengaturan [Moderation](https://bsky.app/moderation){:target="_blank"} pada web atau applikasi klien, lanjutkan ke menu Content Filtering untuk memilih jenis konten apa yang ingin ditampilkan atau dihilangkan dari feed atau *skyline* Anda, misalnya seperti kiriman yang mengandung unsur pornografi, kekerasan, spam, atau akun dengan [label *impersonation*]({% link moderasi/0-moderasi.md %}#pelabelan).
 0. Selain feed bawaan seperti *Following*, *Discover*, atau *What's Hot*, tampilan awal *skyline* atau halaman utama Anda mungkin akan terlihat kosong atau *random*.
 0. Feed [Following](https://bsky.app){:target="_blank"} berisi kiriman terbaru (*chronological*) dari pengguna lain yang Anda ikuti. Feed ini bisa dikustomisasi melalui pengaturan [Home Feed Preferences](https://bsky.app/settings/home-feed){:target="_blank"} seperti untuk menampilkan post saja, menampilkan atau menghilangkan *repost*, *quoted post*, atau menampilkan *replies* pengguna lain sesuai jumlah *likes* -nya.
-0. Bluesky *by design* membebaskan Anda untuk menentukan algoritma versi Anda sendiri melalui fitur [feed]({% link feed/0-feed.md %}), bahkan Anda bisa [membuat feed]({% link feed/membuat-feed.md %}) Anda sendiri. Lihat [daftar rekomendasi feed]({% link feed/rekomendasi-feed.md %}) kami untuk pengguna baru.
-0. Jika Anda ingin mengikuti postingan pengguna lain dalam klaster bahasa Indonesia, gunakan feed [Cakrawala Indonesia]. Semua postingan yang menggunakan [Post Language]({% link pengaturan/bahasa.md %}) berlabel Indonesian `id-ID` atau `in-ID` akan muncul secara otomatis dalam Cakrawala. Anda tidak dapat mengontrol isi dari feed, pelajari kembali tentang panduan moderasi.
+0. Bluesky *by design* membebaskan Anda untuk menentukan timeline dengan algoritma versi Anda sendiri melalui fitur [feed]({% link feed/0-feed.md %}). Lihat [daftar rekomendasi feed]({% link feed/rekomendasi-feed.md %}) kami untuk pengguna baru.
+0. Jika Anda ingin menemukan postingan dari pengguna lain dalam klaster bahasa Indonesia, gunakan feed [Cakrawala Indonesia]. Semua postingan yang menggunakan [Post Language]({% link pengaturan/bahasa.md %}) berlabel Indonesian `id-ID` atau `in-ID` akan muncul secara otomatis dalam Cakrawala. Lihat cara kerjanya [di sini]({% link feed/cakrawala-indonesia.md %}) untuk panduan menampilkan sebuah kiriman dalam feed.
+0. Anda tidak dapat mengontrol kiriman yang muncul di feed manapun. Silakan lihat kembali tentang [panduan moderasi]({% link moderasi/0-moderasi.md %}), *subscribe* [daftar moderasi]({% link moderasi/modlist.md %}) yang direkomendasikan dan pelajari cara membuat daftar moderasi sendiri.
+0. Jadikan feed cakrawala hanya sebagai tempat mencari teman (mutualan). Maksimalkan fungsi [feed Following]({% link feed/rekomendasi-feed.md %}#feed-algoritmik) sebagai feed utama untuk membangun sirkel pertemanan Anda di Bluesky. Anda berhak menentukan sirkel Anda sendiri.
 0. Lihat [daftar pertanyaan umum]({% link panduan/FAQ.md %}) yang sering diajukan terkait Bluesky dan ATProto.
-0. *Tips tambahan* : Jadikan feed cakrawala hanya sebagai tempat mencari teman (mutualan). Selanjutnya maksimalkan fungsi [feed Following]({% link feed/rekomendasi-feed.md %}#feed-algoritmik) sebagai feed utama untuk membangun sirkel pertemanan Anda di Bluesky. Setiap orang berhak menentukan sirkelnya masing-masing!
 
-## Bagian 2 - Informasi Lanjutan
+## Bagian 2: Informasi Lanjutan
 Apabila Anda sudah selesai membaca dan memahami panduan dasar di atas, lanjutkan membaca beberapa informasi singkat di bawah ini:
 
 0. **Semua informasi, data, aktivitas, dan kiriman di Bluesky bersifat terbuka dan publik!** Jangan memposting apa pun yang perlu dirahasiakan atau membagikan secara berlebihan.
@@ -59,7 +60,7 @@ Apabila Anda sudah selesai membaca dan memahami panduan dasar di atas, lanjutkan
 0. Semua pengguna Bluesky memiliki kesempatan yang sama, [tidak ada algoritma khusus]({% link feed/0-feed.md %}) untuk mendongkrak *engagement* di Bluesky. Hanya feed yang menentukan bagaimana postingan akan tampil dan ditampilkan dalam *skyline*. Anda bisa berinteraksi secara organik dengan pengguna lain.
 0. **Penting**: Menambahkan deskripsi gambar atau *alternative text* (*ALT text*) dalam sebuah kiriman akan membantu orang-orang yang menggunakan *screen reader* untuk memahami konteks sebuah kiriman atau secara umum membantu orang lain memahami detail pada gambar yang Anda posting. Baca artikel dari *Harvard's Digital Accessbility* tentang [cara menulis ALT text](https://accessibility.huit.harvard.edu/describe-content-images) yang baik.
 
-## Bagian 3 - Privasi dan Keamanan 🔒
+## Bagian 3: Privasi dan Keamanan 🔒
 Informasi tambahan terkait privasi dan keamanan dalam menggunakan Bluesky
 
 0. **Tidak ada pengaturan *private account* di Bluesky**, artinya semua postingan dan informasi akun bersifat terbuka bagi pengguna lain dalam jaringan. Anda hanya bisa membatasi kiriman agar tidak bisa dibalas oleh akun tertentu. (Lihat pada bagian [roadmap]({% link panduan/roadmap.md %}) untuk perkembangan terbaru)

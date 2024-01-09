@@ -59,7 +59,9 @@ Terdapat beberapa aplikasi pihak ketiga yang bisa Anda gunakan untuk membuat fee
     * Keyword Filters (max 100)
     * File Backup
 
-#### Daftar alat untuk membuat feed:
+#### Aplikasi/service untuk membuat feed
+* [Bluefeed.app](https://www.bluefeed.app/)
+* [Blueskyfeedcreator.com](https://blueskyfeedcreator.com/)
 * [Skyfeed.app](https://skyfeed.com) : Feed generator dengan metode block
 * [Blueskyfeed.com](https://blueskyfeed.com) : Feed generator dengan metode 
 * [Contrails](https://github.com/jcsalterego/Contrails): Feed Generator menggunakan Cloudflare Workers dan Bluesky Search. 

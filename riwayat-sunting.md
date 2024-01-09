@@ -11,6 +11,12 @@ permalink: /riwayat
 {: .sorotan }
 Perubahan pada sebagian atau keseluruhan isi situs Bluesky 101 didokumentasikan dalam laman ini.
 
+## v0.1.5
+9 Januari 2024
+* Menambahkan tulisan baru di Cakrawala Indonesia
+* Membuat laman baru untuk feed Indo Bangers
+* Menambahkan rekomendasi feed baru
+
 ## v0.1.4
 29 Desember 2023
 * Memindahkan laman tentang Domain Handle ke folder handle

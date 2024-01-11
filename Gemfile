@@ -7,3 +7,5 @@ gem "just-the-docs", "0.7.0" # pinned to the current release
 # gem "just-the-docs"        # always download the latest release
 
 gem "jekyll-github-metadata"
+
+gem "jekyll-sass-converter", "~> 2.0"

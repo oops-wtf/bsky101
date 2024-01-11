@@ -12,9 +12,7 @@ last_modified_date: 2024-01-03 08:36
 Moderasi adalah fitur penting dalam ruang sosial. Begitulah cara perilaku buruk dibatasi, norma ditetapkan, dan perselisihan diselesaikan.
 {: .fs-6 .fw-300 }
 
-Bluesky (app) bukan merupakan produk akhir, Bluesky (team) mempertahankan sistem [undangan]({% link panduan/undangan.md %}) sebelum melakukan [desentralisasi]({% link atproto/desentralisasi.md %}) dimaksudkan untuk memprioritaskan keselamatan pengguna sementara menyelesaikan [protokol]({% link atproto/0-atproto.md %}) dan sistem moderasi. Sistem moderasi ini akan menjadi fitur unggulan Bluesky dibanding platform lain.
-
-Bluesky menerapkan fitur moderasi menggunakan pendekatan seperti [feed dan algoritma]({% link feed/0-feed.md %}) yang memungkinkan adanya ekosistem penyedia dari pihak ketiga.
+Bluesky (team) mempertahankan sistem [undangan]({% link panduan/undangan.md %}) sebelum melakukan [desentralisasi]({% link atproto/desentralisasi.md %}) dimaksudkan untuk memprioritaskan keselamatan pengguna sementara menyelesaikan [protokol]({% link atproto/0-atproto.md %}) dan sistem moderasi. Sistem moderasi ini akan menjadi fitur unggulan Bluesky dibanding platform lain. Mereka menerapkan fitur moderasi menggunakan pendekatan seperti [feed dan algoritma]({% link feed/0-feed.md %}) yang memungkinkan adanya ekosistem penyedia dari pihak ketiga.
 
 Untuk feed misalnya, terdapat algoritma dasar berlaku hanya kepada akun yang Anda ikuti kemudian berkembang menjadi algoritma khusus yang lebih kompleks. Sama halnya untuk moderasi, harus ada standar dasar yang berlaku kemudian akan dibuat banyak filter khusus yang tersedia sebagai pilihan pelengkap di atasnya.
 

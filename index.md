@@ -2,8 +2,8 @@
 title: Halaman Utama
 layout: default
 nav_order: 1
-description: "Bluesky 101 berisi informasi, panduan tertulis, dan semua yang berkaitan dengan Bluesky"
-has_toc: true
+description: "Bluesky 101 berisi informasi, panduan tertulis, dan semua yang berkaitan dengan Bluesky (AT Potocol) dalam Bahasa Indonesia"
+has_toc: false
 permalink: /
 last_modified_date: 2024-01-01 22:04
 ---
@@ -11,7 +11,7 @@ last_modified_date: 2024-01-01 22:04
 # Selamat datang! 👋
 {: .fs-9 }
 
-**Bluesky 101** berisi informasi, panduan tertulis, dan semua yang berkaitan dengan Bluesky, PBLLC (AT Protocol) dalam bahasa Indonesia.
+**Bluesky 101** berisi informasi, panduan tertulis, dan semua yang berkaitan dengan Bluesky (AT Protocol) dalam bahasa Indonesia.
 {: .fs-6 .fw-300 }
 
 ![](assets/social-card-default.jpg)

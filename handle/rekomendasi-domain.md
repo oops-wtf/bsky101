@@ -7,22 +7,24 @@ parent: Bluesky Handle
 grand_parent: Pengaturan dan Fitur
 has_children: false
 permalink: /rekomendasi-domain
-last_modified_date: 2023-12-28 14:02
+last_modified_date: 2024-01-11 21:02
 ---
 
 ## Daftar Rekomendasi Domain
 
 Berikut ini adalah daftar layanan di mana Anda dapat membuat nama handle Anda sendiri untuk Bluesky dengan domain khusus.
 
+Domain dengan dukungan resmi hanya memerlukan nama handle dan [App Paswords]({% link pengaturan/password.md %}) Anda untuk masuk layanan, sedangkan domain tidak resmi membutuhkan langkah tambahan dan trik khusus agar subdomain bisa digunakan.
+
+Domain PDS* berarti Anda harus mendaftar atau memindahkan akun Anda ke server lain.
+
 {: .catatan }
 Kirim permintaan di [Github kami](https://github.com/oops-wtf/bsky-docs/tree/main/pengaturan/handle.md) untuk menambahkan layanan Anda!
 
-Perubahan terakhir: `20 Desember 2023`
-
-#### Domain dengan Dukungan Resmi
+#### Domain Resmi
 {: .no_toc }
 
-| Handles   | Type  | PDS?  | Open? | Free? | Auth  | Maintainer    | Links |
+| Handles   | Type  | PDS?*  | Open? | Free? | Auth  | Maintainer    | Links |
 |:--- |:---:|:---:|:---:|:---:|:---:|:---:|:---:|
 | `*.bsky.social` | http | ✅ | ❌ | ✅ | password | [Bluesky PBLLC](https://bsky.app/profile/did:plc:z72i7hdynmk6r22z27h6tvur) | [bsky.app](https://bsky.app/)<br>([github](https://github.com/bluesky-social)) |
 | `*.bsky.to`| dns | - | ✅ | ✅ | none | [@andrew.bsky.to](https://bsky.app/profile/andrew.bsky.to) | [bsky.to](https://bsky.to)
@@ -40,5 +42,6 @@ Perubahan terakhir: `20 Desember 2023`
 | Handles | Type | Open? | Auth | Maintainer | Links | Notes |
 |:--- |:---:|:---:|:---:|:---:|:---:|:---:|
 | `*.github.io` | http | ✅ | multiple | Github | [github.com](https://github.com) | Github Pages |
-| `*.deno.dev` | http | ✅ | multiple | Deno Land Inc. | [deno.dev](https://deno.com/deploy) |  |
+| `*.deno.dev` | http | ✅ | multiple | Deno Land Inc. | [deno.dev](https://deno.com) |  |
+| `*.pages.dev`<br>`*.workers.dev` | http | ✅ | multiple | Cloudflare | [cloudflare.com](https://cloudflare.com) | |
 | `*.messwithdns.com` | dns | ✅ | none | wizard zines | [messwithdns.com](http://messwithdns.com/) | only temporary, suitable for testing |

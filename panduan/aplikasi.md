@@ -8,12 +8,11 @@ permalink: /aplikasi
 last_modified_date: 2024-01-02 11:51
 ---
 
+## Aplikasi Klien
 Bluesky adalah platform microblogging sumber terbuka yang didukung oleh ATProto. Protokol ini memungkinkan pembuatan alat dan aplikasi pihak ketiga, yang terdaftar di sini untuk referensi.
 
 {: .peringatan }
 Jangan pernah menggunakan kata sandi utama Anda. Selalu gunakan [App Passwords]({% link pengaturan/password.md %})!
-
-## Aplikasi Klien
 
 | Nama | Versi | Tautan | Profil |
 |:---:|:---:|:---:|:---:|

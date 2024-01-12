@@ -10,7 +10,7 @@ last_modified_date: 2023-12-28 14:02
 ---
 
 ## Moderation lists & User Lists
-Daftar moderasi (*modlist*) di Bluesky berlaku seperti AdBlocker di mana Anda bisa mengikuti (*subscribe*) daftar akun yang sudah dibuat orang lain.
+Daftar moderasi (*modlist*) di Bluesky berlaku seperti AdBlocker di mana Anda bisa menggunakan (*subscribe*) daftar moderasi yang sudah dibuat oleh orang lain.
 
 #### Beberapa hal yang terjadi ketika Anda membisukan pengguna:
 * Anda tidak akan menerima notifikasi dari pengguna yang dibisukan dalam bentuk interaksi apa pun hingga Anda melepaskan pembisuannya.
@@ -27,11 +27,11 @@ Daftar moderasi (*modlist*) di Bluesky berlaku seperti AdBlocker di mana Anda bi
 ## Daftar Bisu
 Daftar bisu di bawah ini dapat digunakan secara maksimal untuk memoderasi akun yang muncul pada feed Cakrawala Indonesia, WIB, atau feed klaster berbahasa Indonesia lainnya.
 
-* [SFW-ify Your Feed] untuk menghilangkan akun NSFW dari Cakrawala Indonesia
-* [Crypto Quarantine] jika Anda ingin memoderasi akun terkait cryptocurrency, NFT, dsb.
-* [Furries ID] jika Anda ingin memoderasi akun NSFW furries
-* [Akun Jualan 🛒] untuk membatasi akun jualan yang muncul di feed
-* [Botsky] untuk menghilangkan sebagian bot bluesky
+* [SFW-ify Your Feed] daftar untuk menghilangkan akun NSFW yang muncul di klaster Cakrawala Indonesia
+* [Crypto Quarantine] berisi daftar jika Anda ingin memoderasi akun terkait cryptocurrency, NFT, dsb.
+* [Furries ID] daftar untuk memoderasi akun NSFW furries
+* [Akun Jualan 🛒] untuk membatasi akun jualan yang muncul di feed CI
+* [no politics pls](https://bsky.app/profile/did:plc:uxz5zgfb5v5zqjbujoqromt5/lists/3kir3a6ispl2q) berisi daftar akun kampanye dan buzzer politik 
 
 *Modlist* yang berlaku secara global, berdasarkan daftar yang dibuat akun [@skywatch.bsky.social](https://bsky.app/profile/skywatch.bsky.social):
 
@@ -43,6 +43,7 @@ Daftar lain yang direkomendasikan:
 * [The Great AI/NFT/CRYPTO Cull](https://bsky.app/profile/rayday.bsky.social/lists/3jxwojift2y2n)
 * [Anything Crypto or NFT](https://bsky.app/profile/emes.bsky.social/lists/3jzipanhy6z2j)
 * [Content Scrapers](https://bsky.app/profile/retr0.id/lists/3k5kdx4tr4n2f)
+* [Spam](https://bsky.app/profile/did:plc:wixdgg4ejykqrsoqgi7c2fk6/lists/3jvlrml32gl2e)
 * [Zionists](https://bsky.app/profile/sadomasochist.bsky.social/lists/3k5d2fdve5f2v)
 * [Zionist Arsebearers](https://bsky.app/profile/falanxzealot.bsky.social/lists/3k56ib5kplw2b)
 

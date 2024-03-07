@@ -8,4 +8,4 @@ gem "just-the-docs", "0.8.0" # pinned to the current release
 
 gem "jekyll-github-metadata"
 
-gem "jekyll-sass-converter", "~> 2.0"
+gem "jekyll-sass-converter", "~> 3.0"

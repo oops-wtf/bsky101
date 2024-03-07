@@ -16,6 +16,9 @@ Perubahan pada sebagian atau keseluruhan isi situs Bluesky 101 didokumentasikan 
 * Menambahkan tulisan baru di Cakrawala Indonesia
 * Membuat laman baru untuk feed Indo Bangers
 * Menambahkan rekomendasi feed baru
+* Menambahkan daftar pertanyaan yang sering diajukan
+* Menambahkan daftar domain baru yang direkomendasikan
+* Menambahkan tulisan baru di Roadmap
 
 ## v0.1.4
 29 Desember 2023

@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Cakrawala Live Feed</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg-light: #f7f7f7;
+      --bg-dark: #1a1a1a;
+      --text-light: #000;
+      --text-dark: #eee;
+      --card-light: #fff;
+      --card-dark: #2a2a2a;
+    }
+
+    body {
+      margin: 0;
+      font-family: 'Inter', sans-serif;
+      font-size: 14px;
+      background: var(--bg-light);
+      color: var(--text-light);
+      transition: background 0.3s, color 0.3s;
+    }
+
+    body.dark {
+      background: var(--bg-dark);
+      color: var(--text-dark);
+    }
+
+    header {
+      background: #005f73;
+      color: white;
+      padding: 1rem;
+      text-align: center;
+      font-size: 1.2rem;
+    }
+
+    .feed {
+      max-width: 600px;
+      margin: 1rem auto;
+      padding: 0 1rem;
+    }
+
+    .card {
+      background: var(--card-light);
+      border-radius: 10px;
+      padding: 1rem;
+      margin-bottom: 1rem;
+      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+      transition: background 0.3s;
+    }
+
+    body.dark .card {
+      background: var(--card-dark);
+    }
+
+    .card-text {
+      margin: 0.5rem 0;
+      font-size: 0.9rem;
+    }
+
+    .timestamp {
+      font-size: 0.75rem;
+      color: #777;
+    }
+
+    .reply-icon {
+      font-size: 0.9rem;
+      margin-right: 0.3rem;
+    }
+
+    .ws-status {
+      position: fixed;
+      bottom: 1rem;
+      right: 1rem;
+      display: flex;
+      align-items: center;
+      font-size: 0.85rem;
+      color: #555;
+      background: rgba(255, 255, 255, 0.9);
+      padding: 0.4rem 0.6rem;
+      border-radius: 20px;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    }
+
+    body.dark .ws-status {
+      background: rgba(0, 0, 0, 0.7);
+      color: #ddd;
+    }
+
+    .dot {
+      width: 10px;
+      height: 10px;
+      border-radius: 50%;
+      margin-right: 0.5rem;
+      background-color: gray;
+      transition: background-color 0.3s ease;
+    }
+
+    .dot.connected {
+      background-color: #2ecc71;
+    }
+
+    .dot.disconnected {
+      background-color: #e74c3c;
+    }
+
+    .action-buttons {
+      position: fixed;
+      bottom: 4rem;
+      right: 1rem;
+      display: flex;
+      flex-direction: column;
+      gap: 0.5rem;
+    }
+
+    .action-buttons button {
+      background: none;
+      border: none;
+      color: inherit;
+      font-size: 1.2rem;
+      cursor: pointer;
+      padding: 0.5rem;
+      border-radius: 8px;
+      transition: background 0.2s ease;
+    }
+
+    .action-buttons button:hover {
+      background: rgba(0,0,0,0.05);
+    }
+
+    body.dark .action-buttons button:hover {
+      background: rgba(255,255,255,0.1);
+    }
+
+    @media (max-width: 600px) {
+      .action-buttons {
+        bottom: 5rem;
+        right: 1rem;
+        flex-direction: column;
+        align-items: flex-end;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    🌤 Cakrawala Live Feed
+  </header>
+
+  <main class="feed" id="feed"></main>
+
+  <div class="action-buttons">
+    <button title="Toggle Dark Mode" onclick="toggleDarkMode()">🌓</button>
+    <button title="Clear Posts" onclick="clearPosts()">🗑️</button>
+  </div>
+
+  <div class="ws-status">
+    <div class="dot" id="statusDot"></div>
+    <span id="statusText">Connecting...</span>
+  </div>
+
+  <script>
+    const wsUrl = "wss://api.graze.social/app/contrail?feed=at://did:plc:7opjnfmb6gtbgjrsr3777ujx/app.bsky.feed.generator/aaagz4bmp5o3c";
+    //const wsUrl = "wss://jetstream2.us-east.bsky.network/subscribe?wantedCollections=app.bsky.feed.post";
+    const feed = document.getElementById("feed");
+    const dot = document.getElementById("statusDot");
+    const statusText = document.getElementById("statusText");
+    let socket;
+    let retryCount = 0;
+
+    let savedPosts = JSON.parse(localStorage.getItem('cakrawala-posts') || '[]');
+
+    if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
+      document.body.classList.add('dark');
+    }
+
+    // Sort newest first
+    savedPosts.sort((a, b) => new Date(b.createdAt) - new Date(a.createdAt));
+    savedPosts.forEach(renderPost);
+
+    function connectWebSocket() {
+      socket = new WebSocket(wsUrl);
+
+      socket.onopen = () => {
+        console.log("✅ Connected to WebSocket");
+        dot.className = "dot connected";
+        statusText.textContent = "Connected";
+        retryCount = 0;
+      };
+
+      socket.onmessage = (event) => {
+        try {
+          const data = JSON.parse(event.data);
+          if (
+            data.commit &&
+            data.commit.collection === "app.bsky.feed.post" &&
+            data.commit.operation === "create" &&
+            data.commit.record &&
+            data.commit.record.text
+          ) {
+            const post = {
+              text: data.commit.record.text,
+              createdAt: data.commit.record.createdAt,
+              hasReply: !!data.commit.record.reply,
+              langs: data.commit.record.langs || []
+            };
+            savedPosts.push(post);
+            if (savedPosts.length > 100) savedPosts.shift();
+            localStorage.setItem('cakrawala-posts', JSON.stringify(savedPosts));
+            renderPost(post);
+          }
+        } catch (e) {
+          console.error("Invalid JSON:", event.data);
+        }
+      };
+
+      socket.onclose = () => {
+        console.warn("🔌 WebSocket closed");
+        dot.className = "dot disconnected";
+        statusText.textContent = "Disconnected. Retrying...";
+        retryCount++;
+        setTimeout(connectWebSocket, Math.min(3000 * retryCount, 10000));
+      };
+
+      socket.onerror = (error) => {
+        console.error("❌ WebSocket error:", error);
+        socket.close();
+      };
+    }
+
+    function renderPost(post) {
+      const card = document.createElement("div");
+      card.className = "card";
+      card.innerHTML = `
+        <div class="card-text">
+          ${post.hasReply ? '<span class="reply-icon">↪️</span>' : ''}
+          ${escapeHtml(post.text)}
+        </div>
+        <div class="timestamp">🕒 ${new Date(post.createdAt).toLocaleString()}</div>
+      `;
+      feed.prepend(card); // Show newest at top
+    }
+
+    function escapeHtml(text) {
+      const div = document.createElement("div");
+      div.textContent = text;
+      return div.innerHTML;
+    }
+
+    function clearPosts() {
+      localStorage.removeItem('cakrawala-posts');
+      feed.innerHTML = '';
+      savedPosts = [];
+    }
+
+    function toggleDarkMode() {
+      document.body.classList.toggle('dark');
+    }
+
+    connectWebSocket();
+  </script>
+</body>
+</html>
